@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root {
+    --color-primary: #1E3A8A;
+    /* Azul oscuro corporativo */
+    --color-secondary: #3B82F6;
+    /* Azul brillante */
+    --color-accent: #10B981;
+    /* Verde esmeralda para acentos */
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    color: #1F2937;
+    /* Gris oscuro para el texto */
+    background-color: #F9FAFB;
+}
+
+.text-primary {
+    color: var(--color-primary);
+}
+
+.bg-button {
+    background-color: var(--color-accent);
+}
+
+.bg-primary {
+    background-color: var(--color-primary);
+}
+
+.text-secondary {
+    color: var(--color-secondary);
+}
+
+.bg-secondary {
+    background-color: var(--color-secondary);
+}
+
+.shadow-custom {
+    box-shadow: 0 10px 15px -3px rgba(30, 58, 138, 0.1), 0 4px 6px -2px rgba(30, 58, 138, 0.05);
+}
+
+.logotype {
+    width: 100%;
+    height: 80px;
+}

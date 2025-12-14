@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LogixAI: Consultoría Estratégica</title>
+    <!-- Carga de Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Configuración de la fuente Inter y personalización de colores/sombras -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body class="antialiased">
+    <!-- Navbar -->
+    <header class="bg-white shadow-md">
+      <nav
+        class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center"
+      >
+        <div class="text-2xl font-extrabold text-primary">
+          <img class="logotype" src="public/logo.png" alt="logo" />
+        </div>
+        <a
+          href="#contacto"
+          class="hidden sm:inline-block bg-button hover:bg-green-600 text-white font-semibold py-2 px-4 rounded-lg transition duration-300 shadow-lg"
+        >
+          Agenda tu Demo
+        </a>
+      </nav>
+    </header>
+
+    <!-- 1. Hero Section -->
+    <section class="bg-primary text-white pt-16 pb-20 sm:pt-24 sm:pb-28">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <!-- Título Principal (H1) -->
+        <h1 class="text-4xl sm:text-6xl font-extrabold leading-tight mb-4">
+          IA Estratégica para Impulsar tu Crecimiento
+        </h1>
+        <!-- Subtítulo -->
+        <p
+          class="text-xl sm:text-2xl font-light max-w-3xl mx-auto mb-8 opacity-90"
+        >
+          Transformamos procesos manuales en soluciones rentables.<br />
+          Somos consultores especializados en implementar soluciones de
+          Inteligencia Artificial que generan un impacto real en tu negocio.
+        </p>
+        <!-- CTA Primario -->
+        <div class="space-y-4 sm:space-y-0 sm:space-x-6">
+          <a
+            href="#contacto"
+            class="inline-block bg-accent hover:bg-green-600 text-white font-bold text-lg py-3 px-8 rounded-xl transition duration-300 transform hover:scale-105 shadow-2xl"
+          >
+            Agenda una Consulta Gratuita
+          </a>
+          <a
+            href="#soluciones"
+            class="inline-block bg-white hover:bg-gray-100 text-primary font-semibold text-lg py-3 px-8 rounded-xl transition duration-300 shadow-md"
+          >
+            Ver Soluciones
+          </a>
+        </div>
+        <!-- Placeholder Visual (simulando un dashboard o gráfico de IA) -->
+        <!-- <div class="mt-16 bg-white bg-opacity-10 p-6 rounded-xl border border-white border-opacity-20 max-w-4xl mx-auto hidden sm:block">
+                <div class="flex items-center justify-center h-48 sm:h-64 text-white text-opacity-70 text-xl font-medium">
+                    
+                </div>
+            </div> -->
+      </div>
+    </section>
+
+    <!-- 2. Problema/Oportunidad -->
+    <!-- <section class="py-16 sm:py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl sm:text-4xl font-bold text-center mb-12 text-primary">
+                ¿Reconoces estos desafíos?
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+
+                <div class="p-6 bg-gray-50 rounded-xl shadow-custom border-t-4 border-secondary">
+                    <svg class="w-10 h-10 mx-auto mb-4 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.275a1.12 1.12 0 011.284.148l.067.062a1.12 1.12 0 01.148 1.284l-.062.067L19.5 12.5M12 21a9 9 0 01-9-9c0-3.376 1.776-6.4 4.5-8.5M12 21v-9"></path></svg>
+                    <h3 class="text-xl font-semibold mb-3">Modelos Estancados</h3>
+                    <p class="text-gray-600">Proyectos piloto de IA que no logran escalar a producción o no ofrecen el ROI esperado.</p>
+                </div>
+
+                <div class="p-6 bg-gray-50 rounded-xl shadow-custom border-t-4 border-secondary">
+                    <svg class="w-10 h-10 mx-auto mb-4 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"></path></svg>
+                    <h3 class="text-xl font-semibold mb-3">Infraestructura Desordenada</h3>
+                    <p class="text-gray-600">Falta de una estrategia de datos clara que impida la alimentación y el entrenamiento eficiente de los modelos de IA.</p>
+                </div>
+
+                <div class="p-6 bg-gray-50 rounded-xl shadow-custom border-t-4 border-secondary">
+                    <svg class="w-10 h-10 mx-auto mb-4 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                    <h3 class="text-xl font-semibold mb-3">Tiempo de Valor Lento</h3>
+                    <p class="text-gray-600">Ciclos de desarrollo largos que retrasan la obtención de beneficios y dejan a la competencia tomar la delantera.</p>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+        <!-- 4. ¿Por Qué Elegirnos? (Ventaja Competitiva) -->
+    <section class="py-16 sm:py-24">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="lg:flex lg:items-center lg:justify-between">
+          <div class="lg:w-1/2 mb-10 lg:mb-0">
+            <h2 class="text-3xl sm:text-4xl font-bold mb-6 text-primary">
+              Nuestro Diferenciador: Enfoque 100% en el Valor del Negocio
+            </h2>
+            <p class="text-gray-600 text-lg mb-8">
+              No somos solo ingenieros de datos. Somos socios de negocio que
+              entienden la IA como una herramienta para la transformación, no
+              solo la automatización.
+            </p>
+            <a
+              href="#contacto"
+              class="text-accent font-semibold hover:text-green-600 transition duration-300 flex items-center"
+            >
+              <svg
+                class="w-5 h-5 mr-2"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M17 8l4 4m0 0l-4 4m4-4H3"
+                ></path>
+              </svg>
+              Solicita un Caso de Estudio
+            </a>
+          </div>
+          <!-- Puntos de Valor -->
+          <div class="lg:w-5/12 space-y-6">
+            <div class="flex items-start">
+              <svg
+                class="flex-shrink-0 w-6 h-6 text-accent mt-1 mr-3"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M12 8c1.657 0 3 .895 3 2s-1.343 2-3 2-3 .895-3 2 1.343 2 3 2m0-8h.01M12 21a9 9 0 100-18 9 9 0 000 18z"
+                ></path>
+              </svg>
+              <div>
+                <h4 class="font-semibold text-primary">Métricas Claras</h4>
+                <p class="text-gray-500 text-sm">
+                  Todo proyecto tiene KPIs definidos antes de iniciar.
+                </p>
+              </div>
+            </div>
+            <div class="flex items-start">
+              <svg
+                class="flex-shrink-0 w-6 h-6 text-accent mt-1 mr-3"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-2.239 3-5s-1.343-5-3-5m0 10v-2m0-4h.01"
+                ></path>
+              </svg>
+              <div>
+                <h4 class="font-semibold text-primary">Implementación Ágil</h4>
+                <p class="text-gray-500 text-sm">
+                  Metodología Lean para reducir el Time-to-Value de meses a
+                  semanas.
+                </p>
+              </div>
+            </div>
+            <div class="flex items-start">
+              <svg
+                class="flex-shrink-0 w-6 h-6 text-accent mt-1 mr-3"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7L12 3l8 4"
+                ></path>
+              </svg>
+              <div>
+                <h4 class="font-semibold text-primary">
+                  Escalabilidad Garantizada
+                </h4>
+                <p class="text-gray-500 text-sm">
+                  Entregamos soluciones robustas diseñadas para crecer contigo.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. Nuestras Soluciones -->
+    <section id="soluciones" class="py-16 sm:py-24 bg-blue-100">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2
+          class="text-3xl sm:text-4xl font-bold text-center mb-16 text-primary"
+        >
+          El Camino Hacia la Solución: Nuestros Servicios Clave
+        </h2>
+
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+          <div
+            class="bg-white p-8 rounded-xl shadow-lg hover:shadow-2xl transition duration-500"
+          >
+            <div class="flex items-center mb-4">
+              <h3 class="text-2xl font-semibold text-primary">
+                Automatizaciones con IA
+              </h3>
+            </div>
+            <p class="text-gray-600 mb-4">
+              Automatizamos procesos operativos y administrativos mediante IA,
+              reduciendo costos, tiempos y errores humanos de forma medible.
+            </p>
+            <ul class="list-disc list-inside space-y-2 text-sm text-gray-500">
+              <li>Automatización de workflows end-to-end</li>
+              <li>Integración con sistemas existentes (ERP, TMS, WMS)</li>
+              <li>Optimización de procesos basada en datos</li>
+            </ul>
+          </div>
+
+          <div
+            class="bg-white p-8 rounded-xl shadow-lg hover:shadow-2xl transition duration-500"
+          >
+            <div class="flex items-center mb-4">
+              <h3 class="text-2xl font-semibold text-primary">
+                Agentes de Inteligencia Artificial
+              </h3>
+            </div>
+            <p class="text-gray-600 mb-4">
+              Diseñamos agentes autónomos capaces de tomar decisiones,
+              interactuar con sistemas y ejecutar tareas complejas de forma
+              continua.
+            </p>
+            <ul class="list-disc list-inside space-y-2 text-sm text-gray-500">
+              <li>Agentes conversacionales y operativos</li>
+              <li>Integración con LLMs y herramientas externas</li>
+              <li>Supervisión, control y auditoría</li>
+            </ul>
+          </div>
+
+          <div
+            class="bg-white p-8 rounded-xl shadow-lg hover:shadow-2xl transition duration-500"
+          >
+            <div class="flex items-center mb-4">
+              <h3 class="text-2xl font-semibold text-primary">
+                AI Logistics Staff
+              </h3>
+            </div>
+            <p class="text-gray-600 mb-4">
+              Personal logístico basado en IA que ejecuta funciones críticas con
+              precisión, disponibilidad 24/7 y trazabilidad total.
+            </p>
+            <ul class="list-disc list-inside space-y-2 text-sm text-gray-500">
+              <li>AI Demand Planner</li>
+              <li>AI Material Planner</li>
+              <li>AI RFQ Administrator</li>
+              <li>AI Supplier Verifier</li>
+              <li>AI Import/Export Coordinator</li>
+              <li>AI Logistics Coordinator</li>
+              <li>AI Transportation Coordinator</li>
+              <li>Otros roles personalizados</li>
+            </ul>
+          </div>
+
+          <div
+            class="bg-white p-8 rounded-xl shadow-lg hover:shadow-2xl transition duration-500"
+          >
+            <div class="flex items-center mb-4">
+              <h3 class="text-2xl font-semibold text-primary">
+                AI Logistics Outsourced Staff (IC)
+              </h3>
+            </div>
+            <p class="text-gray-600 mb-4">
+              Servicios logísticos tercerizados operados por agentes IA
+              In-Cloud, listos para integrarse sin costos de onboarding.
+            </p>
+            <ul class="list-disc list-inside space-y-2 text-sm text-gray-500">
+              <li>IC Customer Service</li>
+              <li>IC Logistics Coordinator</li>
+              <li>IC Transportation Coordinator</li>
+              <li>Otros servicios In-Cloud</li>
+            </ul>
+          </div>
+        </div>
+        <!-- CTA Secundario -->
+        <div class="text-center mt-16">
+          <a
+            href="#contacto"
+            class="inline-block bg-secondary hover:bg-blue-600 text-white font-semibold py-3 px-10 rounded-xl transition duration-300 shadow-lg transform hover:scale-105"
+          >
+            Hablemos de tu Proyecto Específico
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. Prueba Social (Testimonio y Logos) -->
+    <!-- <section class="py-16 sm:py-24 bg-primary text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-center mb-12">
+                Nuestros Clientes lo Confirman
+            </h2>
+
+             <div class="max-w-4xl mx-auto bg-white p-8 rounded-xl shadow-lg mb-12 relative">
+                <svg class="absolute top-0 left-0 -mt-3 -ml-3 w-10 h-10 text-secondary opacity-70" fill="currentColor"
+                    viewBox="0 0 24 24">
+                    <path
+                        d="M13.5 10.5h3c.55 0 1-.45 1-1v-2c0-.55-.45-1-1-1h-3c-.55 0-1 .45-1 1v2c0 .55.45 1 1 1zm-8 0h3c.55 0 1-.45 1-1v-2c0-.55-.45-1-1-1h-3c-.55 0-1 .45-1 1v2c0 .55.45 1 1 1zM21 4H3c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zM9 16H6v-3h3v3zm8 0h-3v-3h3v3z" />
+                </svg>
+                <p class="text-xl italic text-gray-800 leading-relaxed z-10 relative">
+                    "Gracias a su modelo predictivo, logramos reducir el gasto operativo
+                    en un 25% durante el primer trimestre. La implementación fue fluida
+                    y el equipo de consultoría demostró un conocimiento técnico
+                    superior."
+                </p>
+                <div class="mt-4 text-right">
+                    <p class="font-bold text-primary">
+                        - Mónica Suárez, CEO de TechCorp
+                    </p>
+                    <p class="text-sm text-gray-500">Sector Logística y Tecnología</p>
+                </div>
+            </div>
+
+             <div class="mt-16 border-t border-b border-white border-opacity-30 py-6">
+                <div class="flex flex-wrap justify-center items-center gap-6 sm:gap-12 opacity-80">
+                    <div
+                        class="w-24 h-8 bg-white rounded-md flex items-center justify-center text-primary font-bold text-xs shadow-inner">
+                        CLIENTE A
+                    </div>
+                    <div
+                        class="w-24 h-8 bg-white rounded-md flex items-center justify-center text-primary font-bold text-xs shadow-inner">
+                        CLIENTE B
+                    </div>
+                    <div
+                        class="w-24 h-8 bg-white rounded-md flex items-center justify-center text-primary font-bold text-xs shadow-inner">
+                        CLIENTE C
+                    </div>
+                    <div
+                        class="w-24 h-8 bg-white rounded-md flex items-center justify-center text-primary font-bold text-xs shadow-inner">
+                        CLIENTE D
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- 6. Sección de Contacto (CTA Final con Formulario) -->
+    <section id="contacto" class="py-16 sm:py-24 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2
+          class="text-3xl sm:text-4xl font-bold text-center mb-12 text-primary"
+        >
+          ¿Listo para la Transformación con IA?
+        </h2>
+        <p class="text-center text-lg text-gray-600 mb-10 max-w-2xl mx-auto">
+          Contanos más sobre tu proyecto. Un consultor experto te contactará en
+          menos de 24 horas para discutir tus objetivos y cómo nuestras
+          soluciones pueden ayudarte a lograrlos.
+        </p>
+
+        <!-- Formulario Sencillo -->
+        <div class="max-w-xl mx-auto bg-gray-50 p-8 rounded-xl shadow-2xl">
+          <form id="contactForm" class="space-y-6">
+            <div>
+              <label for="name" class="block text-sm font-medium text-gray-700"
+                >Nombre Completo</label
+              >
+              <input
+                type="text"
+                id="name"
+                name="name"
+                required
+                class="mt-1 block w-full rounded-lg border-gray-300 shadow-sm focus:border-secondary focus:ring-secondary p-3"
+              />
+            </div>
+            <div>
+              <label for="email" class="block text-sm font-medium text-gray-700"
+                >Correo Electrónico Corporativo</label
+              >
+              <input
+                type="email"
+                id="email"
+                name="email"
+                required
+                class="mt-1 block w-full rounded-lg border-gray-300 shadow-sm focus:border-secondary focus:ring-secondary p-3"
+              />
+            </div>
+            <div>
+              <label
+                for="company"
+                class="block text-sm font-medium text-gray-700"
+                >Empresa</label
+              >
+              <input
+                type="text"
+                id="company"
+                name="company"
+                required
+                class="mt-1 block w-full rounded-lg border-gray-300 shadow-sm focus:border-secondary focus:ring-secondary p-3"
+              />
+            </div>
+            <div>
+              <label
+                for="project_type"
+                class="block text-sm font-medium text-gray-700"
+                >Describe tu proyecto de IA o necesidad (opcional)</label
+              >
+              <textarea
+                id="project_type"
+                name="project_type"
+                rows="3"
+                class="mt-1 block w-full rounded-lg border-gray-300 shadow-sm focus:border-secondary focus:ring-secondary p-3"
+              ></textarea>
+            </div>
+
+            <!-- Botón CTA Final -->
+            <button
+              type="submit"
+              class="w-full bg-white hover:bg-green-600 text font-bold py-3 rounded-xl transition duration-300 transform hover:scale-[1.02] hover:text-white shadow-xl"
+            >
+              Inicia tu Proyecto de IA Hoy
+            </button>
+            <p
+              id="messageBox"
+              class="text-center mt-4 text-sm font-medium text-primary hidden"
+            >
+              ¡Gracias! Tu solicitud ha sido enviada con éxito. Te contactaremos
+              pronto.
+            </p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-10">
+      <div
+        class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center sm:flex sm:justify-between sm:items-center"
+      >
+        <p class="text-sm mb-4 sm:mb-0">
+          &copy; 2025 LogixAI. Todos los derechos reservados.
+        </p>
+        <div class="space-x-4 text-sm">
+          <a href="#" class="hover:text-secondary transition duration-300"
+            >Política de Privacidad</a
+          >
+          <a href="#" class="hover:text-secondary transition duration-300"
+            >Términos y Condiciones</a
+          >
+          <a href="#" class="hover:text-secondary transition duration-300"
+            >LinkedIn
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      // Simple script para manejar el envío del formulario y mostrar un mensaje de éxito.
+      document
+        .getElementById("contactForm")
+        .addEventListener("submit", function (e) {
+          e.preventDefault();
+
+          // Ocultar el botón de envío y mostrar el mensaje de éxito
+          const messageBox = document.getElementById("messageBox");
+          const submitButton = this.querySelector('button[type="submit"]');
+
+          // Simulación de envío (en un entorno real aquí harías un fetch/AJAX)
+          submitButton.textContent = "Enviando...";
+          submitButton.disabled = true;
+
+          setTimeout(() => {
+            submitButton.textContent = "Solicitud Enviada";
+            submitButton.classList.remove("bg-accent", "hover:bg-green-600");
+            submitButton.classList.add("bg-gray-400", "cursor-not-allowed");
+
+            messageBox.classList.remove("hidden");
+            // Opcional: limpiar el formulario
+            // this.reset();
+          }, 1500); // 1.5 segundos de retraso
+        });
+    </script>
+  </body>
+</html>
