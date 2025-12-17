@@ -805,7 +805,7 @@
                 class="mt-1 block w-full rounded-lg border-gray-300 shadow-sm focus:border-secondary focus:ring-secondary p-3"
               ></textarea>
             </div>
-            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_captcha" value="false" />
 
             <!-- Botón CTA Final -->
             <button
@@ -835,19 +835,28 @@
     <!-- Footer -->
     <footer class="bg-gray-800 text-white py-10">
       <div
-        class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center sm:flex sm:justify-between sm:items-center"
+        class="max-w-7xl mx-auto px-4 sm:px-4 lg:px-6 text-center sm:flex sm:justify-between sm:items-center"
       >
         <p class="text-sm mb-4 sm:mb-0">
           &copy; 2025 LogixAI. Todos los derechos reservados.
         </p>
-        <div class="space-x-4 text-sm">
+        <div class="flex space-x-4 text-sm">
           <a href="#" class="hover:text-secondary transition duration-300"
             >Política de Privacidad</a
           >
           <a href="#" class="hover:text-secondary transition duration-300"
             >Términos y Condiciones</a
           >
-          <a href="#" class="hover:text-secondary transition duration-300"
+          <button
+            id="whatsapp-link"
+            class="inline-flex items-center gap-2 hover:text-secondary transition duration-300"
+          >
+            <img class="w-5 h-5" src="public/whatsapp-brands-solid.svg" alt="WhatsApp Icon"/>
+            <span class="leading-none">WhatsApp</span>
+          </button>
+          <a
+            href="https://www.linkedin.com/company/logixai-ai/"
+            class="hover:text-secondary transition duration-300"
             >LinkedIn
           </a>
         </div>
@@ -883,13 +892,13 @@
 
           // URL del endpoint - REEMPLAZA ESTO CON TU ENDPOINT REAL
           const endpointURL =
-            "https://formsubmit.co/cc8199d0e6eba3407e3deb24ec89089d"; 
+            "https://formsubmit.co/cc8199d0e6eba3407e3deb24ec89089d";
 
           // Enviar datos usando fetch
           fetch(endpointURL, {
             method: "POST",
             headers: {
-              "Accept": "application/json",
+              Accept: "application/json",
               "Content-Type": "application/json",
             },
             body: JSON.stringify(formData),
@@ -972,6 +981,24 @@
         );
         evt.currentTarget.classList.remove("text-slate-600");
       }
+
+
+      };
+
+      document.addEventListener("DOMContentLoaded", function () {
+        const whatsappBtn = document.getElementById("whatsapp-link");
+
+        if (whatsappBtn) {
+          whatsappBtn.addEventListener("click", function(e) {
+        e.preventDefault();
+        window.open(
+          "https://wa.me/5491156620014/?text=Deseo%20hacer%20una%20consulta%20sobre%20los%20servicios%20de%20consultor%C3%ADa",
+          "_blank",
+          "noopener, noreferrer"
+        );
+        })
+      }
+      });
     </script>
   </body>
 </html>
