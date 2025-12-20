@@ -11,14 +11,17 @@ class I18n {
     this.setupLanguageSwitcher();
   }
 
-  async loadTranslations() {
-    try {
-      const response = await fetch(`/locales/${this.locale}.json`);
-      this.translations = await response.json();
-    } catch (error) {
-      console.error('Error loading translations:', error);
-    }
+async loadTranslations() {
+  try {
+    const response = await fetch(`./locales/${this.locale}.json`); 
+    
+    if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+    
+    this.translations = await response.json();
+  } catch (error) {
+    console.error('Error loading translations:', error);
   }
+}
 
   t(key, params = {}) {
     const keys = key.split('.');
