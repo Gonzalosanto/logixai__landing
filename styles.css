@@ -2,7 +2,7 @@
 
 :root {
     --color-main: #FFFFFF;
-    
+
     /* NEUTRAL */
     --color-text-main: #0F172A;
     --color-text-secondary: #334155;
@@ -11,10 +11,10 @@
 
     /* MAIN */
     --color-primary: #045182;
-    --color-secondary: #3b82f6;
-    --color-header: #033a5e;
-    --color-active-links: #0a6fb5;
-    --color-background-secondary: #D6eAF7;
+    --color-secondary: #3B82F6;
+    --color-header: #033A5E;
+    --color-active-links: #0A6FB5;
+    --color-background-secondary: #D6EAF7;
 
     /* ACCENT */
     --color-accent: #4AB2EC;
@@ -25,7 +25,14 @@
     --color-accept:#22C55E;
     --color-warning:#F59E0B;
     --color-error:#EF4444;
+}
 
+html {
+    scroll-behavior: smooth;
+}
+
+section[id] {
+    scroll-margin-top: 90px;
 }
 
 body {
@@ -79,4 +86,33 @@ body {
 
 .choose-card {
     width: 600px;
+}
+
+.nav-link {
+  position: relative;
+  color: #1e293b; /* Slate-800 */
+  font-weight: 600;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+  padding: 0.5rem 0;
+}
+
+/* Cambio de color al hacer hover */
+.nav-link:hover {
+  color: var(--color-active-links);
+}
+/* Efecto de línea inferior (subrayado elegante) */
+.nav-link::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-active-links); /* El color de tu marca */
+  transition: width 0.3s ease;
+}
+
+.nav-link:hover::after {
+  width: 100%;
 }

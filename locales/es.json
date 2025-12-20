@@ -1,0 +1,198 @@
+{
+  "common": {
+    "siteTitle": "LogixAI: Consultoría Estratégica",
+    "copyright": "© 2025 LogixAI. Todos los derechos reservados.",
+    "privacyPolicy": "Política de Privacidad",
+    "terms": "Términos y Condiciones",
+    "whatsapp": "WhatsApp",
+    "linkedin": "LinkedIn",
+    "send": "Enviar",
+    "sending": "Enviando...",
+    "sentSuccess": "¡Enviado Exitosamente!",
+    "tryAgain": "Intentar Nuevamente",
+    "thankYou": "¡Gracias! Tu solicitud ha sido enviada con éxito. Te contactaremos pronto.",
+    "error": "Tu solicitud tuvo un error."
+  },
+  
+  "navbar": {
+    "sectors": "Sectores",
+    "whyChooseUs": "¿Por qué elegirnos?",
+    "solutions": "Soluciones",
+    "scheduleConsultation": "Agendá tu Consulta"
+  },
+  
+  "hero": {
+    "title": "IA Estratégica para Impulsar tu Crecimiento",
+    "subtitle": "Transformamos procesos manuales en soluciones rentables. Somos consultores especializados en implementar soluciones de Inteligencia Artificial que generan un impacto real en tu negocio.",
+    "ctaPrimary": "Agenda una Consulta Gratuita",
+    "ctaSecondary": "Ver Soluciones"
+  },
+  
+  "sectors": {
+    "title": "Sectores",
+    "description": "Especialistas en optimizar operaciones de alta complejidad donde la eficiencia logística y tecnológica es el motor del negocio.",
+    
+    "supplyChain": {
+      "title": "Supply Chain Management",
+      "planning": "Planificación & Sourcing",
+      "planningDesc": "Forecasting de demanda, abastecimiento eficiente y gestión de proveedores.",
+      "operations": "Operaciones Internacionales",
+      "operationsDesc": "Comercio exterior, aduana y logística internacional compleja.",
+      "production": "Producción & Stock",
+      "productionDesc": "Manufactura, control de inventarios, logística inversa y depósitos.",
+      "distribution": "Distribución & Cliente",
+      "distributionDesc": "Transporte, última milla y forecast de ventas/cumplimiento."
+    },
+    
+    "logisticsProviders": {
+      "title": "Logistics Service Providers",
+      "items": {
+        "operators": "Operadores (2PL a 5PL)",
+        "multimodal": "Transporte Multimodal",
+        "forwarders": "Agentes de Carga / Freight Forwarders",
+        "customs": "Despachantes de Aduana",
+        "storage": "Gestión de Almacenamiento",
+        "distribution": "Distribución y Última Milla",
+        "ecommerce": "Soluciones para Ecommerce",
+        "complementary": "Servicios Complementarios"
+      }
+    },
+    
+    "industries": {
+      "agro": {
+        "title": "Agro",
+        "description": "Agricultura inteligente & logística agroalimentaria."
+      },
+      "consumer": {
+        "title": "Consumo Masivo",
+        "description": "Optimización de procesos y gestión de stock."
+      },
+      "tech": {
+        "title": "Tech & Telco",
+        "description": "Transformación digital y gestión de redes."
+      },
+      "ecommerce": {
+        "title": "Ecommerce",
+        "description": "Logística de última milla y fulfillment."
+      },
+      "government": {
+        "title": "Gobierno",
+        "description": "Procesos públicos y gestión de datos masivos."
+      },
+      "legal": {
+        "title": "Legales",
+        "description": "Compliance e IA aplicada a procesos legales."
+      },
+      "manufacturing": {
+        "title": "Manufactura",
+        "description": "Eficiencia y automatización de producción."
+      },
+      "services": {
+        "title": "Servicios",
+        "description": "Mejora de CX y procesos internos."
+      }
+    }
+  },
+  
+  "whyChooseUs": {
+    "title": "Por qué elegirnos",
+    "description": "En Logix AI no partimos de la tecnología: partimos del negocio. Combinamos <strong>experiencia operativa real</strong> con innovación tecnológica para generar resultados medibles.",
+    
+    "uniqueExperience": {
+      "title": "Experiencia Única",
+      "description": "Unimos <strong>+30 años</strong> en gestión de operaciones y supply chain con <strong>+15 años</strong> en vanguardia tecnológica.",
+      "quote": "\"Entendemos los problemas del mundo real antes de proponer una línea de código.\""
+    },
+    
+    "empowerPeople": {
+      "title": "Potenciamos Personas",
+      "description": "La IA no reemplaza humanos; los libera de lo rutinario para que aporten valor estratégico.",
+      "items": [
+        "Automatizaciones de tareas.",
+        "Agentes de decisión inteligente.",
+        "Staff IA 24x7."
+      ]
+    },
+    
+    "identifyPain": {
+      "title": "Identificamos \"el dolor\"",
+      "description": "Detectamos puntos críticos con precisión quirúrgica:",
+      "painPoints": [
+        "Cuellos de botella",
+        "Errores manuales",
+        "Fuga de tiempo",
+        "Carga operativa"
+      ]
+    },
+    
+    "ourPromise": {
+      "title": "Nuestra Promesa",
+      "description": "Entregamos soluciones de <strong>nivel enterprise</strong> con agilidad y costos competitivos. Resultados reales, no promesas técnicas vacías."
+    }
+  },
+  
+  "solutions": {
+    "title": "El Camino Hacia la Solución: Nuestros Servicios Clave",
+    
+    "automation": {
+      "title": "Automatizaciones con IA",
+      "description": "Automatizamos procesos operativos y administrativos mediante IA, reduciendo costos, tiempos y errores humanos de forma medible.",
+      "items": [
+        "Automatización de workflows end-to-end",
+        "Integración con sistemas existentes (ERP, TMS, WMS)",
+        "Optimización de procesos basada en datos"
+      ]
+    },
+    
+    "agents": {
+      "title": "Agentes de Inteligencia Artificial",
+      "description": "Diseñamos agentes autónomos capaces de tomar decisiones, interactuar con sistemas y ejecutar tareas complejas de forma continua.",
+      "items": [
+        "Agentes conversacionales y operativos",
+        "Integración con LLMs y herramientas externas",
+        "Supervisión, control y auditoría"
+      ]
+    },
+    
+    "aiStaff": {
+      "title": "AI Logistics Staff",
+      "description": "Personal logístico basado en IA que ejecuta funciones críticas con precisión, disponibilidad 24/7 y trazabilidad total.",
+      "items": [
+        "AI Demand Planner",
+        "AI Material Planner",
+        "AI RFQ Administrator",
+        "AI Supplier Verifier",
+        "AI Import/Export Coordinator",
+        "AI Logistics Coordinator",
+        "AI Transportation Coordinator",
+        "Otros roles personalizados"
+      ]
+    },
+    
+    "outsourcedStaff": {
+      "title": "AI Logistics Outsourced Staff (IC)",
+      "description": "Servicios logísticos tercerizados operados por agentes IA In-Cloud, listos para integrarse sin costos de onboarding.",
+      "items": [
+        "IC Customer Service",
+        "IC Logistics Coordinator",
+        "IC Transportation Coordinator",
+        "Otros servicios In-Cloud"
+      ]
+    },
+    
+    "cta": "Hablemos de tu Proyecto Específico"
+  },
+  
+  "contact": {
+    "title": "¿Listo para la Transformación con IA?",
+    "description": "Contanos más sobre tu proyecto. Un consultor experto te contactará en menos de 24 horas para discutir tus objetivos y cómo nuestras soluciones pueden ayudarte a lograrlos.",
+    
+    "form": {
+      "name": "Nombre Completo",
+      "email": "Correo Electrónico Corporativo",
+      "company": "Empresa",
+      "project": "Describe tu proyecto de IA o necesidad (opcional)",
+      "submit": "Inicia tu Proyecto de IA Hoy"
+    }
+  }
+}
