@@ -81,27 +81,43 @@ async loadTranslations() {
     });
   }
 
-  setupLanguageSwitcher() {
-    // Crear selector de idioma si no existe
-    if (!document.getElementById('language-switcher')) {
-      const switcher = document.createElement('div');
-      switcher.id = 'language-switcher';
-      switcher.className = 'fixed bottom-4 right-4 z-50';
-      switcher.innerHTML = `
-        <div class="bg-white rounded-lg shadow-lg p-2">
-          <button data-lang="es" class="px-3 py-1 rounded ${this.locale === 'es' ? 'bg-primary text-white' : 'text-gray-700'}">ES</button>
-          <button data-lang="en" class="px-3 py-1 rounded ${this.locale === 'en' ? 'bg-primary text-white' : 'text-gray-700'}">EN</button>
-        </div>
-      `;
-      document.body.appendChild(switcher);
+setupLanguageSwitcher() {
+  if (!document.getElementById('language-switcher')) {
+    const switcher = document.createElement('div');
+    switcher.id = 'language-switcher';
+    // Estilo de contenedor: centrado en mobile, esquina en desktop
+    switcher.className = 'fixed bottom-6 left-1/2 -translate-x-1/2 md:left-auto md:right-6 md:translate-x-0 z-50';
+    
+    switcher.innerHTML = `
+      <div class="flex items-center gap-1 bg-slate-900/80 backdrop-blur-md border border-white/10 p-1.5 rounded-full shadow-2xl">
+        <button data-lang="es" class="flex items-center justify-center w-12 h-10 md:w-10 md:h-8 rounded-full text-xs font-bold transition-all duration-200 ${this.locale === 'es' ? 'bg-blue-500 text-white shadow-lg' : 'text-slate-300 hover:text-white'}">
+          ES
+        </button>
+        <button data-lang="en" class="flex items-center justify-center w-12 h-10 md:w-10 md:h-8 rounded-full text-xs font-bold transition-all duration-200 ${this.locale === 'en' ? 'bg-blue-500 text-white shadow-lg' : 'text-slate-300 hover:text-white'}">
+          EN
+        </button>
+      </div>
+    `;
+    
+    document.body.appendChild(switcher);
 
-      switcher.querySelectorAll('button').forEach(button => {
-        button.addEventListener('click', () => {
-          this.setLocale(button.dataset.lang);
+    switcher.querySelectorAll('button').forEach(button => {
+      button.addEventListener('click', async () => {
+        await this.setLocale(button.dataset.lang);
+        // Actualizar clases visuales después del cambio
+        switcher.querySelectorAll('button').forEach(btn => {
+          if (btn.dataset.lang === this.locale) {
+            btn.classList.remove('bg-blue-500', 'text-white', 'shadow-lg');
+            btn.classList.add('text-slate-300');
+          } else {
+            btn.classList.add('bg-blue-500', 'text-white', 'shadow-lg');
+            btn.classList.remove('text-slate-300');
+          }
         });
       });
-    }
+    });
   }
+}
 }
 
 // Inicializar i18n
