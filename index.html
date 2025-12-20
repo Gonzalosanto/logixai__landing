@@ -10,46 +10,111 @@
 
   <body class="antialiased">
     <!-- Navbar -->
-<header class="bg-white shadow-md sticky top-0 z-50">
-  <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
-    <div class="flex items-center shrink-0">
-      <a href="#inicio" class="block transition duration-300 hover:opacity-80">
-        <img src="src/public/Logo LOGIXAI Firma.png" alt="LogixAI Logo" class="h-10 sm:h-12 w-auto object-contain" />
-      </a>
-    </div>
+    <header class="bg-white shadow-md sticky top-0 z-50">
+      <nav
+        class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center"
+      >
+        <div class="flex items-center shrink-0">
+          <a
+            href="#inicio"
+            class="block transition duration-300 hover:opacity-80"
+          >
+            <img
+              src="src/public/Logo LOGIXAI Firma.png"
+              alt="LogixAI Logo"
+              class="h-10 sm:h-12 w-auto object-contain"
+            />
+          </a>
+        </div>
 
-    <div class="hidden lg:flex items-center space-x-4">
-      <a href="#inicio" class="nav-link ml-0" data-i18n="nav.home">Inicio</a>
-      <a href="#soluciones" class="nav-link mx-4" data-i18n="nav.solutions">Soluciones</a>
-      <a href="#sectores" class="nav-link mx-4" data-i18n="nav.sectors">Sectores</a>
-      <a href="#why_choose_us" class="nav-link mx-4" data-i18n="nav.why_us">¿Por qué elegirnos?</a>
-      <a href="#contacto" class="nav-link" data-i18n="nav.contact">
-        Contactanos
-      </a>
-    </div>
+        <div class="hidden lg:flex items-center space-x-4">
+          <a href="#inicio" class="nav-link ml-0" data-i18n="nav.home"
+            >Inicio</a
+          >
+          <a href="#soluciones" class="nav-link mx-4" data-i18n="nav.solutions"
+            >Soluciones</a
+          >
+          <a href="#sectores" class="nav-link mx-4" data-i18n="nav.sectors"
+            >Sectores</a
+          >
+          <a href="#why_choose_us" class="nav-link mx-4" data-i18n="nav.why_us"
+            >¿Por qué elegirnos?</a
+          >
+          <a href="#contacto" class="nav-link" data-i18n="nav.contact">
+            Contactanos
+          </a>
+        </div>
 
-    <div class="lg:hidden flex items-center">
-      <button id="mobile-menu-button" class="text-slate-800 focus:outline-none p-2">
-        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path id="hamburger-icon" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
-          <path id="close-icon" class="hidden" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
-        </svg>
-      </button>
-    </div>
-  </nav>
+        <div class="lg:hidden flex items-center">
+          <button
+            id="mobile-menu-button"
+            class="text-slate-800 focus:outline-none p-2"
+          >
+            <svg
+              class="w-8 h-8"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                id="hamburger-icon"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h16M4 18h16"
+              ></path>
+              <path
+                id="close-icon"
+                class="hidden"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M6 18L18 6M6 6l12 12"
+              ></path>
+            </svg>
+          </button>
+        </div>
+      </nav>
 
-  <div id="mobile-menu" class="hidden lg:hidden bg-white border-t border-slate-100 px-4 pt-2 pb-6 space-y-2 shadow-xl">
-    <a href="#inicio" class="block py-3 px-4 text-slate-800 font-semibold hover:bg-slate-50 rounded-lg" data-i18n="nav.home">Inicio</a>
-    <a href="#soluciones" class="block py-3 px-4 text-slate-800 font-semibold hover:bg-slate-50 rounded-lg" data-i18n="nav.solutions">Soluciones</a>
-    <a href="#sectores" class="block py-3 px-4 text-slate-800 font-semibold hover:bg-slate-50 rounded-lg" data-i18n="nav.sectors">Sectores</a>
-    <a href="#why_choose_us" class="block py-3 px-4 text-slate-800 font-semibold hover:bg-slate-50 rounded-lg" data-i18n="nav.why_us">¿Por qué elegirnos?</a>
-    <div class="pt-4">
-      <a href="#contacto" class="block w-full text-center bg-button text-white font-bold py-4 rounded-xl shadow-lg" data-i18n="nav.contact">
-        Contactanos
-      </a>
-    </div>
-  </div>
-</header>
+      <div
+        id="mobile-menu"
+        class="hidden lg:hidden bg-white border-t border-slate-100 px-4 pt-2 pb-6 space-y-2 shadow-xl"
+      >
+        <a
+          href="#inicio"
+          class="block py-3 px-4 text-slate-800 font-semibold hover:bg-slate-50 rounded-lg"
+          data-i18n="nav.home"
+          >Inicio</a
+        >
+        <a
+          href="#soluciones"
+          class="block py-3 px-4 text-slate-800 font-semibold hover:bg-slate-50 rounded-lg"
+          data-i18n="nav.solutions"
+          >Soluciones</a
+        >
+        <a
+          href="#sectores"
+          class="block py-3 px-4 text-slate-800 font-semibold hover:bg-slate-50 rounded-lg"
+          data-i18n="nav.sectors"
+          >Sectores</a
+        >
+        <a
+          href="#why_choose_us"
+          class="block py-3 px-4 text-slate-800 font-semibold hover:bg-slate-50 rounded-lg"
+          data-i18n="nav.why_us"
+          >¿Por qué elegirnos?</a
+        >
+        <div class="pt-4">
+          <a
+            href="#contacto"
+            class="block w-full text-center bg-button text-white font-bold py-4 rounded-xl shadow-lg"
+            data-i18n="nav.contact"
+          >
+            Contactanos
+          </a>
+        </div>
+      </div>
+    </header>
 
     <!-- 1. Hero Section -->
     <section
@@ -58,31 +123,32 @@
     >
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <!-- Título Principal (H1) -->
-        <h1 class="text-4xl sm:text-6xl font-extrabold leading-tight mb-4">
+        <h1
+          class="text-4xl sm:text-6xl font-extrabold leading-tight mb-4"
+          data-i18n="hero.title"
+        >
           <b>No vendemos IA</b>
         </h1>
         <!-- Subtítulo -->
         <p
           class="text-xl sm:text-4xl font-light max-w-3xl mx-auto mb-8 opacity-90"
+          data-i18n="hero.subtitle"
         >
           <b>Diseñamos sistemas que trabajan para su negocio</b>
         </p>
         <p
+          class="text-lg sm:text-2xl font-light max-w-3xl mx-auto opacity-90"
+          data-i18n="hero.text"
+        ></p>
+        <p
           class="text-lg sm:text-2xl font-light max-w-3xl mx-auto mb-8 opacity-90"
-        >
-          IA estratégica para impulsar el crecimiento de su empresa
-          <br />
-          Transformamos procesos manuales en soluciones automatizadas que
-          generan <b>IMPACTO REAL</b>
-          <br />
-          <!-- Transformamos procesos manuales en soluciones rentables.<br />
-          Somos consultores especializados en implementar soluciones de
-          Inteligencia Artificial que generan un impacto real en tu negocio. -->
-        </p>
-        <!-- CTA Primario -->
+          data-i18n="hero.secondaryText"
+        ></p>
+        <!-- CTA -->
         <div class="space-y-4 sm:space-y-0 sm:space-x-6">
           <a
             href="#soluciones"
+            data-i18n="hero.cta"
             class="inline-block bg-white hover:bg-gray-100 text-primary font-semibold text-lg py-3 px-8 rounded-xl transition duration-300 shadow-md"
           >
             Ver Soluciones
@@ -96,6 +162,7 @@
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2
           class="text-3xl sm:text-4xl font-bold text-center mb-16 text-primary"
+          data-i18n="solutions.title"
         >
           Nuestras Soluciones
         </h2>
@@ -105,18 +172,30 @@
             class="bg-white p-8 rounded-xl shadow-lg hover:shadow-2xl transition duration-500"
           >
             <div class="flex items-center mb-4">
-              <h3 class="text-2xl font-semibold text-primary">
+              <h3
+                class="text-2xl font-semibold text-primary"
+                data-i18n="solutions.automation.title"
+              >
                 Automatizaciones con IA
               </h3>
             </div>
-            <p class="text-gray-600 mb-4">
+            <p
+              class="text-gray-600 mb-4"
+              data-i18n="solutions.automation.description"
+            >
               Automatizamos procesos operativos y administrativos mediante IA,
               reduciendo costos, tiempos y errores humanos de forma medible.
             </p>
             <ul class="list-disc list-inside space-y-2 text-sm text-gray-500">
-              <li>Automatización de workflows end-to-end</li>
-              <li>Integración con sistemas existentes (ERP, TMS, WMS)</li>
-              <li>Optimización de procesos basada en datos</li>
+              <li data-i18n="solutions.automation.items.0">
+                Automatización de workflows end-to-end
+              </li>
+              <li data-i18n="solutions.automation.items.1">
+                Integración con sistemas existentes (ERP, TMS, WMS)
+              </li>
+              <li data-i18n="solutions.automation.items.2">
+                Optimización de procesos basada en datos
+              </li>
             </ul>
           </div>
 
@@ -124,19 +203,31 @@
             class="bg-white p-8 rounded-xl shadow-lg hover:shadow-2xl transition duration-500"
           >
             <div class="flex items-center mb-4">
-              <h3 class="text-2xl font-semibold text-primary">
+              <h3
+                class="text-2xl font-semibold text-primary"
+                data-i18n="solutions.agents.title"
+              >
                 Agentes de Inteligencia Artificial
               </h3>
             </div>
-            <p class="text-gray-600 mb-4">
+            <p
+              class="text-gray-600 mb-4"
+              data-i18n="solutions.agents.description"
+            >
               Diseñamos agentes autónomos capaces de tomar decisiones,
               interactuar con sistemas y ejecutar tareas complejas de forma
               continua.
             </p>
             <ul class="list-disc list-inside space-y-2 text-sm text-gray-500">
-              <li>Agentes conversacionales y operativos</li>
-              <li>Integración con LLMs y herramientas externas</li>
-              <li>Supervisión, control y auditoría</li>
+              <li data-i18n="solutions.agents.items.0">
+                Agentes conversacionales y operativos
+              </li>
+              <li data-i18n="solutions.agents.items.1">
+                Integración con LLMs y herramientas externas
+              </li>
+              <li data-i18n="solutions.agents.items.2">
+                Supervisión, control y auditoría
+              </li>
             </ul>
           </div>
 
@@ -144,22 +235,46 @@
             class="bg-white p-8 rounded-xl shadow-lg hover:shadow-2xl transition duration-500"
           >
             <div class="flex items-center mb-4">
-              <h3 class="text-2xl font-semibold text-primary">Staff IA</h3>
+              <h3
+                class="text-2xl font-semibold text-primary"
+                data-i18n="solutions.aiStaff.title"
+              >
+                Staff IA
+              </h3>
             </div>
-            <p class="text-gray-600 mb-4">
+            <p
+              class="text-gray-600 mb-4"
+              data-i18n="solutions.aiStaff.description"
+            >
               Staff basado en IA que ejecuta funciones críticas con precisión,
               disponibilidad 24/7 y trazabilidad total. Entre algunas posiciones
               que podemos automatizar encontramos:
             </p>
             <ul class="list-disc list-inside space-y-2 text-sm text-gray-500">
-              <li>Planificador de Demanda</li>
-              <li>Planificador de Materiales</li>
-              <li>Comprador - Activador de RFQs</li>
-              <li>Comprador - Gestión de Proveedores</li>
-              <li>Coordinador de Import/Export</li>
-              <li>Coordinador de Transportes</li>
-              <li>Coordinador de Logística</li>
-              <li>Otros roles desarrollados a medida</li>
+              <li data-i18n="solutions.aiStaff.items.0">
+                Planificador de Demanda
+              </li>
+              <li data-i18n="solutions.aiStaff.items.1">
+                Planificador de Materiales
+              </li>
+              <li data-i18n="solutions.aiStaff.items.2">
+                Comprador - Activador de RFQs
+              </li>
+              <li data-i18n="solutions.aiStaff.items.3">
+                Comprador - Gestión de Proveedores
+              </li>
+              <li data-i18n="solutions.aiStaff.items.4">
+                Coordinador de Import/Export
+              </li>
+              <li data-i18n="solutions.aiStaff.items.5">
+                Coordinador de Transportes
+              </li>
+              <li data-i18n="solutions.aiStaff.items.6">
+                Coordinador de Logística
+              </li>
+              <li data-i18n="solutions.aiStaff.items.7">
+                Otros roles desarrollados a medida
+              </li>
             </ul>
           </div>
 
@@ -167,11 +282,17 @@
             class="bg-white p-8 rounded-xl shadow-lg hover:shadow-2xl transition duration-500"
           >
             <div class="flex items-center mb-4">
-              <h3 class="text-2xl font-semibold text-primary">
+              <h3
+                class="text-2xl font-semibold text-primary"
+                data-i18n="solutions.outsourcedStaff.title"
+              >
                 Staff IA Tercerizado
               </h3>
             </div>
-            <p class="text-gray-600 mb-4">
+            <p
+              class="text-gray-600 mb-4"
+              data-i18n="solutions.outsourcedStaff.description"
+            >
               Staff basado en IA para la prestación de servicios tercerizados
               operados por Agentes de IA alojados en la Nube, listos para
               integrarse sin costos de onboarding. Permite reemplazar a
@@ -179,33 +300,38 @@
               cliente. Algunas posiciones pueden ser:
             </p>
             <ul class="list-disc list-inside space-y-2 text-sm text-gray-500">
-              <li>Coordinador de Logística (en Operadores Logísticos)</li>
-              <li>Coordinador de Transporte (en Operadores Logísticos)</li>
-              <li>
+              <li data-i18n="solutions.outsourcedStaff.items.0">
+                Coordinador de Logística (en Operadores Logísticos)
+              </li>
+              <li data-i18n="solutions.outsourcedStaff.items.1">
+                Coordinador de Transporte (en Operadores Logísticos)
+              </li>
+              <li data-i18n="solutions.outsourcedStaff.items.2">
                 Customer Service (en Despachantes de Aduana y Freight
                 Forwarders)
               </li>
-              <li>Otros roles desarrollados a medida</li>
+              <li data-i18n="solutions.outsourcedStaff.items.3">
+                Otros roles desarrollados a medida
+              </li>
             </ul>
           </div>
         </div>
-        <!-- CTA Secundario -->
-        <!-- <div class="text-center mt-16">
-          <a
-            href="#contacto"
-            class="inline-block bg-secondary hover:bg-blue-600 text-white font-semibold py-3 px-10 rounded-xl transition duration-300 shadow-lg transform hover:scale-105"
-          >
-            Hablemos de tu Proyecto Específico
-          </a>
-        </div> -->
       </div>
     </section>
     <!-- 3. Industrias y Sectores -->
     <section id="sectores" class="py-24 bg-white">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="mb-16">
-          <h2 class="text-4xl font-extrabold text-center text-slate-900 mb-4">Sectores</h2>
-          <p class="text-xl justify-self-center text-center text-slate-600 max-w-3xl">
+          <h2
+            class="text-4xl font-extrabold text-center text-slate-900 mb-4"
+            data-i18n="sectors.title"
+          >
+            Sectores
+          </h2>
+          <p
+            class="text-xl justify-self-center text-center text-slate-600 max-w-3xl"
+            data-i18n="sectors.description"
+          >
             Especialistas en optimizar operaciones de alta complejidad donde la
             eficiencia logística y tecnológica es el motor del negocio.
           </p>
@@ -218,22 +344,31 @@
             <div class="relative z-10">
               <div class="flex items-center mb-8">
                 <span class="text-4xl mr-4">⚙️</span>
-                <h3 class="text-3xl font-bold">
+                <h3
+                  class="text-3xl font-bold"
+                  data-i18n="sectors.supplyChain.title"
+                >
                   Supply Chain Management (SCM)
                 </h3>
               </div>
               <div class="flex mb-8">
-                <p>¿Qué procesos podemos automatizar?</p>
+                <p data-i18n="common.sectors.help">
+                  ¿Qué procesos podemos automatizar?
+                </p>
               </div>
               <div class="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-6">
                 <div class="space-y-4">
                   <div>
                     <h5
                       class="text-blue-400 font-bold text-sm uppercase tracking-wider"
+                      data-i18n="sectors.supplyChain.planning"
                     >
                       Planificación y Forecasting
                     </h5>
-                    <p class="text-slate-300 text-sm">
+                    <p
+                      class="text-slate-300 text-sm"
+                      data-i18n="sectors.supplyChain.planningDesc"
+                    >
                       Optimización y previsión de demanda y la planificación de
                       recursos.
                     </p>
@@ -242,10 +377,14 @@
                   <div>
                     <h5
                       class="text-blue-400 font-bold text-sm uppercase tracking-wider"
+                      data-i18n="sectors.supplyChain.supplying"
                     >
                       Abastecimiento y Proveedores
                     </h5>
-                    <p class="text-slate-300 text-sm">
+                    <p
+                      class="text-slate-300 text-sm"
+                      data-i18n="sectors.supplyChain.supplyingDesc"
+                    >
                       Gestión del abastecimiento eficiente, procesos de
                       cotización confiable y la relación con proveedores.
                     </p>
@@ -254,10 +393,14 @@
                   <div>
                     <h5
                       class="text-blue-400 font-bold text-sm uppercase tracking-wider"
+                      data-i18n="sectors.supplyChain.comex"
                     >
                       Comercio Exterior y Aduana
                     </h5>
-                    <p class="text-slate-300 text-sm">
+                    <p
+                      class="text-slate-300 text-sm"
+                      data-i18n="sectors.supplyChain.comexDesc"
+                    >
                       Gestión de importaciones, exportaciones, la logística y
                       transporte internacional y gestión aduanera.
                     </p>
@@ -268,10 +411,14 @@
                   <div>
                     <h5
                       class="text-blue-400 font-bold text-sm uppercase tracking-wider"
+                      data-i18n="sectors.supplyChain.production"
                     >
                       Producción y Manufactura
                     </h5>
-                    <p class="text-slate-300 text-sm">
+                    <p
+                      class="text-slate-300 text-sm"
+                      data-i18n="sectors.supplyChain.productionDesc"
+                    >
                       Control de la eficiencia y calidad de los procesos de
                       producción.
                     </p>
@@ -279,10 +426,14 @@
                   <div>
                     <h5
                       class="text-blue-400 font-bold text-sm uppercase tracking-wider"
+                      data-i18n="sectors.supplyChain.logistics"
                     >
                       Logística y Distribución
                     </h5>
-                    <p class="text-slate-300 text-sm">
+                    <p
+                      class="text-slate-300 text-sm"
+                      data-i18n="sectors.supplyChain.logisticsDesc"
+                    >
                       Gestión del almacenamiento, el transporte y la última
                       milla.
                     </p>
@@ -291,10 +442,14 @@
                   <div>
                     <h5
                       class="text-blue-400 font-bold text-sm uppercase tracking-wider"
+                      data-i18n="sectors.supplyChain.inventory"
                     >
                       Inventarios y Logística Inversa
                     </h5>
-                    <p class="text-slate-300 text-sm">
+                    <p
+                      class="text-slate-300 text-sm"
+                      data-i18n="sectors.supplyChain.inventoryDesc"
+                    >
                       Administración de los ingresos, egresos y devoluciones.
                     </p>
                   </div>
@@ -302,10 +457,14 @@
                   <div>
                     <h5
                       class="text-blue-400 font-bold text-sm uppercase tracking-wider"
+                      data-i18n="sectors.supplyChain.client"
                     >
                       Atención al Cliente
                     </h5>
-                    <p class="text-slate-300 text-sm">
+                    <p
+                      class="text-slate-300 text-sm"
+                      data-i18n="sectors.supplyChain.clientDesc"
+                    >
                       Gestión del forecast de ventas, las entregas y su
                       cumplimiento.
                     </p>
@@ -321,52 +480,81 @@
             <div class="relative z-10">
               <div class="flex items-center mb-8">
                 <span class="text-4xl mr-4">📦</span>
-                <h3 class="text-3xl font-bold">
+                <h3
+                  class="text-3xl font-bold"
+                  data-i18n="sectors.logisticsProviders.title"
+                >
                   Logistics Service Providers (LSP)
                 </h3>
               </div>
               <div class="flex mb-8">
-                <p>¿Qué procesos podemos automatizar?</p>
+                <p data-i18n="common.sectors.help">
+                  ¿Qué procesos podemos automatizar?
+                </p>
               </div>
               <div
                 class="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-8 text-blue-50"
               >
                 <div class="space-y-6">
                   <div>
-                    <h5 class="font-bold text-white text-base mb-1">
+                    <h5
+                      class="font-bold text-white text-base mb-1"
+                      data-i18n="sectors.logisticsProviders.operators"
+                    >
                       Operadores Logísticos (2PL / 3PL / 4PL / 5PL)
                     </h5>
-                    <p class="text-slate-400 text-sm leading-relaxed">
+                    <p
+                      class="text-slate-400 text-sm leading-relaxed"
+                      data-i18n="sectors.logisticsProviders.operatorsDesc"
+                    >
                       Gestión operativa, planificación de recursos, costos y
                       rentabilidad, reporting para clientes.
                     </p>
                   </div>
 
                   <div>
-                    <h5 class="font-bold text-white text-base mb-1">
+                    <h5
+                      class="font-bold text-white text-base mb-1"
+                      data-i18n="sectors.logisticsProviders.multimodal"
+                    >
                       Transporte marítimo, aéreo y terrestre
                     </h5>
-                    <p class="text-slate-400 text-sm leading-relaxed">
+                    <p
+                      class="text-slate-400 text-sm leading-relaxed"
+                      data-i18n="sectors.logisticsProviders.multimodalDesc"
+                    >
                       Cotizaciones inteligentes, planificación y seguimiento,
                       gestión documental, gestión de incidencias.
                     </p>
                   </div>
 
                   <div>
-                    <h5 class="font-bold text-white text-base mb-1">
+                    <h5
+                      class="font-bold text-white text-base mb-1"
+                      data-i18n="sectors.logisticsProviders.forwarders"
+                    >
                       Agentes de carga (Freight Forwarders)
                     </h5>
-                    <p class="text-slate-400 text-sm leading-relaxed">
+                    <p
+                      data-i18n="sectors.logisticsProviders.forwardersDesc"
+                      class="text-slate-400 text-sm leading-relaxed"
+                    >
                       RFQs y pricing, gestión de bookings, documentación
                       internacional, atención al cliente.
                     </p>
                   </div>
 
                   <div>
-                    <h5 class="font-bold text-white text-base mb-1">
+                    <h5
+                      class="font-bold text-white text-base mb-1"
+                      data-i18n="sectors.logisticsProviders.customs"
+                    >
                       Despachantes de Aduana
                     </h5>
-                    <p class="text-slate-400 text-sm leading-relaxed">
+                    <p
+                      data-i18n="sectors.logisticsProviders.customsDesc"
+                      class="text-slate-400 text-sm leading-relaxed"
+                    >
                       Clasificación arancelaria, gestión de expedientes, control
                       normativo, comunicación con clientes.
                     </p>
@@ -375,7 +563,10 @@
 
                 <div class="space-y-6">
                   <div>
-                    <h5 class="font-bold text-white text-base mb-1">
+                    <h5
+                      class="font-bold text-white text-base mb-1"
+                      data-i18n="sectors.logisticsProviders.storage"
+                    >
                       Gestión de almacenamiento
                     </h5>
                     <p class="text-slate-400 text-sm leading-relaxed">
@@ -385,7 +576,10 @@
                   </div>
 
                   <div>
-                    <h5 class="font-bold text-white text-base mb-1">
+                    <h5
+                      class="font-bold text-white text-base mb-1"
+                      data-i18n="sectors.logisticsProviders.distribution"
+                    >
                       Distribución y última milla
                     </h5>
                     <p class="text-slate-400 text-sm leading-relaxed">
@@ -395,20 +589,32 @@
                   </div>
 
                   <div>
-                    <h5 class="font-bold text-white text-base mb-1">
+                    <h5
+                      class="font-bold text-white text-base mb-1"
+                      data-i18n="sectors.logisticsProviders.ecommerce"
+                    >
                       Soluciones para ecommerce
                     </h5>
-                    <p class="text-slate-400 text-sm leading-relaxed">
+                    <p
+                      data-i18n="sectors.logisticsProviders.ecommerceDesc"
+                      class="text-slate-400 text-sm leading-relaxed"
+                    >
                       Gestión de pedidos, integraciones multicanal, gestión de
                       devoluciones, atención al cliente.
                     </p>
                   </div>
 
                   <div>
-                    <h5 class="font-bold text-white text-base mb-1">
+                    <h5
+                      class="font-bold text-white text-base mb-1"
+                      data-i18n="sectors.logisticsProviders.complementary"
+                    >
                       Servicios complementarios
                     </h5>
-                    <p class="text-slate-400 text-sm leading-relaxed">
+                    <p
+                      data-i18n="sectors.logisticsProviders.complementaryDesc"
+                      class="text-slate-400 text-sm leading-relaxed"
+                    >
                       Facturación y cobranzas, análisis de datos, compliance y
                       auditoría, soporte interno.
                     </p>
@@ -424,8 +630,16 @@
             class="p-6 bg-slate-50 rounded-2xl border border-slate-100 flex flex-col items-center text-center"
           >
             <span class="text-3xl mb-3">🚜</span>
-            <h4 class="font-bold text-slate-900 mb-1">Agro</h4>
-            <p class="text-xs text-slate-500 italic">
+            <h4
+              class="font-bold text-slate-900 mb-1"
+              data-i18n="sectors.industries.agro.title"
+            >
+              Agro
+            </h4>
+            <p
+              class="text-xs text-slate-500 italic"
+              data-i18n="sectors.industries.agro.description"
+            >
               Agricultura inteligente & logística agroalimentaria.
             </p>
           </div>
@@ -434,8 +648,16 @@
             class="p-6 bg-slate-50 rounded-2xl border border-slate-100 flex flex-col items-center text-center"
           >
             <span class="text-3xl mb-3">🛒</span>
-            <h4 class="font-bold text-slate-900 mb-1">Consumo Masivo</h4>
-            <p class="text-xs text-slate-500 italic">
+            <h4
+              class="font-bold text-slate-900 mb-1"
+              data-i18n="sectors.industries.consumer.title"
+            >
+              Consumo Masivo
+            </h4>
+            <p
+              class="text-xs text-slate-500 italic"
+              data-i18n="sectors.industries.consumer.description"
+            >
               Optimización de procesos y gestión de stock.
             </p>
           </div>
@@ -444,8 +666,16 @@
             class="p-6 bg-slate-50 rounded-2xl border border-slate-100 flex flex-col items-center text-center"
           >
             <span class="text-3xl mb-3">📡</span>
-            <h4 class="font-bold text-slate-900 mb-1">Tech & Telco</h4>
-            <p class="text-xs text-slate-500 italic">
+            <h4
+              class="font-bold text-slate-900 mb-1"
+              data-i18n="sectors.industries.tech.title"
+            >
+              Tech & Telco
+            </h4>
+            <p
+              class="text-xs text-slate-500 italic"
+              data-i18n="sectors.industries.tech.description"
+            >
               Transformación digital y gestión de redes.
             </p>
           </div>
@@ -454,8 +684,16 @@
             class="p-6 bg-slate-50 rounded-2xl border border-slate-100 flex flex-col items-center text-center"
           >
             <span class="text-3xl mb-3">💻</span>
-            <h4 class="font-bold text-slate-900 mb-1">Ecommerce</h4>
-            <p class="text-xs text-slate-500 italic">
+            <h4
+              class="font-bold text-slate-900 mb-1"
+              data-i18n="sectors.industries.ecommerce.title"
+            >
+              Ecommerce
+            </h4>
+            <p
+              class="text-xs text-slate-500 italic"
+              data-i18n="sectors.industries.ecommerce.description"
+            >
               Logística de última milla y fulfillment.
             </p>
           </div>
@@ -464,8 +702,16 @@
             class="p-6 bg-slate-100 rounded-2xl border border-slate-200 flex flex-col items-center text-center"
           >
             <span class="text-3xl mb-3">🏛️</span>
-            <h4 class="font-bold text-slate-900 mb-1">Gobierno</h4>
-            <p class="text-xs text-slate-500 italic">
+            <h4
+              class="font-bold text-slate-900 mb-1"
+              data-i18n="sectors.industries.government.title"
+            >
+              Gobierno
+            </h4>
+            <p
+              class="text-xs text-slate-500 italic"
+              data-i18n="sectors.industries.government.description"
+            >
               Procesos públicos y gestión de datos masivos.
             </p>
           </div>
@@ -474,8 +720,16 @@
             class="p-6 bg-slate-100 rounded-2xl border border-slate-200 flex flex-col items-center text-center"
           >
             <span class="text-3xl mb-3">⚖️</span>
-            <h4 class="font-bold text-slate-900 mb-1">Legales</h4>
-            <p class="text-xs text-slate-500 italic">
+            <h4
+              class="font-bold text-slate-900 mb-1"
+              data-i18n="sectors.industries.legal.title"
+            >
+              Legales
+            </h4>
+            <p
+              class="text-xs text-slate-500 italic"
+              data-i18n="sectors.industries.legal.description"
+            >
               Compliance e IA aplicada a procesos legales.
             </p>
           </div>
@@ -484,8 +738,16 @@
             class="p-6 bg-slate-50 rounded-2xl border border-slate-100 flex flex-col items-center text-center"
           >
             <span class="text-3xl mb-3">🏭</span>
-            <h4 class="font-bold text-slate-900 mb-1">Manufactura</h4>
-            <p class="text-xs text-slate-500 italic">
+            <h4
+              class="font-bold text-slate-900 mb-1"
+              data-i18n="sectors.industries.manufacturing.title"
+            >
+              Manufactura
+            </h4>
+            <p
+              class="text-xs text-slate-500 italic"
+              data-i18n="sectors.industries.manufacturing.description"
+            >
               Eficiencia y automatización de producción.
             </p>
           </div>
@@ -494,8 +756,16 @@
             class="p-6 bg-slate-50 rounded-2xl border border-slate-100 flex flex-col items-center text-center"
           >
             <span class="text-3xl mb-3">🤝</span>
-            <h4 class="font-bold text-slate-900 mb-1">Servicios</h4>
-            <p class="text-xs text-slate-500 italic">
+            <h4
+              class="font-bold text-slate-900 mb-1"
+              data-i18n="sectors.industries.services.title"
+            >
+              Servicios
+            </h4>
+            <p
+              class="text-xs text-slate-500 italic"
+              data-i18n="sectors.industries.services.description"
+            >
               Mejora de CX y procesos internos.
             </p>
           </div>
@@ -508,12 +778,17 @@
         <div class="text-center mb-20">
           <h2
             class="text-3xl sm:text-5xl font-extrabold mb-6 text-slate-900 tracking-tight"
+            data-i18n="whyChooseUs.title"
           >
             ¿Por qué elegirnos?
           </h2>
           <div class="w-20 h-1.5 bg-accent mx-auto mb-8 rounded-full"></div>
-          <p class="text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed">
-            En LogixAI no partimos de la tecnología: partimos del negocio. <br>
+          <p
+            class="text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed"
+            data-i18n="whyChooseUs.description"
+          >
+            En LogixAI no partimos de la tecnología: partimos del negocio.
+            <br />
             Combinamos
             <span class="text-primary font-bold"
               >experiencia operativa real</span
@@ -544,18 +819,39 @@
                   ></path>
                 </svg>
               </div>
-              <h3 class="text-2xl font-bold text-slate-900">
+              <h3
+                class="text-2xl font-bold text-slate-900"
+                data-i18n="whyChooseUs.uniqueExperience.title"
+              >
                 Experiencia Única
               </h3>
             </div>
             <p class="text-slate-600 mb-6 leading-relaxed">
-              Unimos <span class="font-bold text-slate-900">+30 años</span> en
-              gestión de operaciones y supply chain con
-              <span class="font-bold text-slate-900">+15 años</span> en
-              vanguardia tecnológica.
+              <span data-i18n="whyChooseUs.uniqueExperience.descriptionPart1"
+                >Unimos</span
+              >
+              <span
+                class="font-bold text-slate-900"
+                data-i18n="whyChooseUs.uniqueExperience.opsYears"
+                >+30 años</span
+              >
+              <span data-i18n="whyChooseUs.uniqueExperience.descriptionPart2"
+                >en gestión de operaciones y supply chain con</span
+              >
+              <span
+                class="font-bold text-slate-900"
+                data-i18n="whyChooseUs.uniqueExperience.techYears"
+                >+15 años</span
+              >
+              <span data-i18n="whyChooseUs.uniqueExperience.descriptionPart3"
+                >en vanguardia tecnológica.</span
+              >
             </p>
             <div class="bg-slate-50 p-4 rounded-lg border-l-4 border-primary">
-              <p class="text-sm text-slate-700 italic">
+              <p
+                class="text-sm text-slate-700 italic"
+                data-i18n="whyChooseUs.uniqueExperience.quote"
+              >
                 "Entendemos los problemas del mundo real antes de proponer una
                 línea de código."
               </p>
@@ -583,11 +879,17 @@
                   ></path>
                 </svg>
               </div>
-              <h3 class="text-2xl font-bold text-slate-900">
+              <h3
+                class="text-2xl font-bold text-slate-900"
+                data-i18n="whyChooseUs.empowerPeople.title"
+              >
                 Potenciamos Personas
               </h3>
             </div>
-            <p class="text-slate-600 mb-6">
+            <p
+              class="text-slate-600 mb-6"
+              data-i18n="whyChooseUs.empowerPeople.description"
+            >
               La IA no reemplaza humanos; los libera de lo rutinario para que
               aporten valor estratégico.
             </p>
@@ -597,21 +899,27 @@
                   class="w-6 h-6 bg-secondary text-white rounded-full flex items-center justify-center text-xs mr-3"
                   >1</span
                 >
-                Automatizaciones de tareas.
+                <span data-i18n="whyChooseUs.empowerPeople.items.0"
+                  >Automatizaciones de tareas.</span
+                >
               </li>
               <li class="flex items-center text-sm text-slate-700 font-medium">
                 <span
                   class="w-6 h-6 bg-secondary text-white rounded-full flex items-center justify-center text-xs mr-3"
                   >2</span
                 >
-                Agentes de decisión inteligente.
+                <span data-i18n="whyChooseUs.empowerPeople.items.1"
+                  >Agentes de decisión inteligente.</span
+                >
               </li>
               <li class="flex items-center text-sm text-slate-700 font-medium">
                 <span
                   class="w-6 h-6 bg-secondary text-white rounded-full flex items-center justify-center text-xs mr-3"
                   >3</span
                 >
-                Staff IA 24x7.
+                <span data-i18n="whyChooseUs.empowerPeople.items.2"
+                  >Staff IA 24x7.</span
+                >
               </li>
             </ul>
           </div>
@@ -637,31 +945,41 @@
                   ></path>
                 </svg>
               </div>
-              <h3 class="text-2xl font-bold text-slate-900">
+              <h3
+                class="text-2xl font-bold text-slate-900"
+                data-i18n="whyChooseUs.identifyPain.title"
+              >
                 Atacamos el verdadero problema operativo.
               </h3>
             </div>
-            <p class="text-slate-600 mb-6">
+            <p
+              class="text-slate-600 mb-6"
+              data-i18n="whyChooseUs.identifyPain.description"
+            >
               Detectamos puntos críticos con precisión quirúrgica:
             </p>
             <div class="grid grid-cols-2 gap-3">
               <div
                 class="flex items-center text-xs font-semibold text-slate-500 uppercase tracking-wider bg-slate-50 p-2 rounded"
+                data-i18n="whyChooseUs.identifyPain.painPoints.0"
               >
                 Cuellos de botella
               </div>
               <div
                 class="flex items-center text-xs font-semibold text-slate-500 uppercase tracking-wider bg-slate-50 p-2 rounded"
+                data-i18n="whyChooseUs.identifyPain.painPoints.1"
               >
                 Errores manuales
               </div>
               <div
                 class="flex items-center text-xs font-semibold text-slate-500 uppercase tracking-wider bg-slate-50 p-2 rounded"
+                data-i18n="whyChooseUs.identifyPain.painPoints.2"
               >
                 Fuga de tiempo
               </div>
               <div
                 class="flex items-center text-xs font-semibold text-slate-500 uppercase tracking-wider bg-slate-50 p-2 rounded"
+                data-i18n="whyChooseUs.identifyPain.painPoints.3"
               >
                 Carga operativa
               </div>
@@ -689,13 +1007,27 @@
                   ></path>
                 </svg>
               </div>
-              <h3 class="text-2xl font-bold text-slate-900">Nuestra Promesa</h3>
+              <h3
+                class="text-2xl font-bold text-slate-900"
+                data-i18n="whyChooseUs.ourPromise.title"
+              >
+                Nuestra Promesa
+              </h3>
             </div>
             <p class="text-slate-600 leading-relaxed">
-              Entregamos soluciones de
-              <span class="text-primary font-bold">nivel enterprise</span> con
-              agilidad y costos competitivos. Resultados reales, no promesas
-              técnicas vacías.
+              <span data-i18n="whyChooseUs.ourPromise.descriptionPart1">
+                Entregamos soluciones de
+              </span>
+              <span
+                class="text-primary font-bold"
+                data-i18n="whyChooseUs.ourPromise.strongDesc"
+              >
+                nivel enterprise
+              </span>
+              <span data-i18n="whyChooseUs.ourPromise.descriptionPart2">
+                con agilidad y costos competitivos. Resultados reales, no
+                promesas técnicas vacías.
+              </span>
             </p>
           </div>
         </div>
@@ -704,10 +1036,16 @@
     <!-- 5. Sección de Contacto -->
     <section id="contacto" class="py-16 sm:py-24 bg-white">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <h2 class="text-3xl sm:text-4xl font-bold mb-8 text-primary">
+        <h2
+          data-i18n="contact.title"
+          class="text-3xl sm:text-4xl font-bold mb-8 text-primary"
+        >
           ¿Listo para la Transformación con IA?
         </h2>
-        <p class="text-center text-lg text-gray-600 mb-12 max-w-2xl mx-auto">
+        <p
+          class="text-center text-lg text-gray-600 mb-12 max-w-2xl mx-auto"
+          data-i18n="contact.description"
+        >
           Elegí el canal que mejor se adapte a tu forma de trabajo. Estamos
           listos para escuchar tus desafíos.
         </p>
@@ -726,7 +1064,7 @@
                 d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"
               />
             </svg>
-            <span>WhatsApp</span>
+            <span data-i18n="common.whatsapp">WhatsApp</span>
           </a>
 
           <a
@@ -746,7 +1084,7 @@
                 d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
               />
             </svg>
-            <span>Email Corporativo</span>
+            <span data-i18n="common.email">Email</span>
           </a>
 
           <a
@@ -760,7 +1098,7 @@
                 d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"
               />
             </svg>
-            <span>LinkedIn</span>
+            <span data-i18n="common.linkedin">LinkedIn</span>
           </a>
         </div>
       </div>
@@ -770,20 +1108,31 @@
       <div
         class="max-w-7xl mx-auto px-4 sm:px-4 lg:px-6 text-center sm:flex sm:justify-between sm:items-center"
       >
-        <p class="text-sm mb-4 sm:mb-0">
-          &copy; 2025 LogixAI. Todos los derechos reservados.
+        <p class="text-sm mb-4 sm:mb-0" data-i18n="common.copyright">
+          © 2025 LogixAI. Todos los derechos reservados.
         </p>
+
         <div class="flex space-x-4 text-sm">
-          <a href="#" class="hover:text-secondary transition duration-300"
-            >Política de Privacidad</a
+          <a
+            href="#"
+            class="hover:text-secondary transition duration-300"
+            data-i18n="common.privacyPolicy"
           >
-          <a href="#" class="hover:text-secondary transition duration-300"
-            >Términos y Condiciones</a
+            Política de Privacidad
+          </a>
+          <a
+            href="#"
+            class="hover:text-secondary transition duration-300"
+            data-i18n="common.terms"
           >
+            Términos y Condiciones
+          </a>
           <a
             href="https://www.linkedin.com/company/logixai-ai/"
             class="hover:text-secondary transition duration-300"
-            >LinkedIn
+            data-i18n="common.linkedin"
+          >
+            LinkedIn
           </a>
         </div>
       </div>

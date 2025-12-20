@@ -6,12 +6,15 @@
     "why_us": "¿Por qué elegirnos?",
     "contact": "Contactanos"
   },
-
   "common": {
+    "sectors": {
+      "help": "¿Qué procesos podemos automatizar?"
+    },
     "siteTitle": "LogixAI: Consultoría Estratégica",
     "copyright": "© 2025 LogixAI. Todos los derechos reservados.",
     "privacyPolicy": "Política de Privacidad",
     "terms": "Términos y Condiciones",
+    "email": "Email",
     "whatsapp": "WhatsApp",
     "linkedin": "LinkedIn",
     "send": "Enviar",
@@ -21,51 +24,52 @@
     "thankYou": "¡Gracias! Tu solicitud ha sido enviada con éxito. Te contactaremos pronto.",
     "error": "Tu solicitud tuvo un error."
   },
-  
-  "navbar": {
-    "sectors": "Sectores",
-    "whyChooseUs": "¿Por qué elegirnos?",
-    "solutions": "Soluciones",
-    "scheduleConsultation": "Agendá tu Consulta"
-  },
-  
   "hero": {
-    "title": "IA Estratégica para Impulsar tu Crecimiento",
-    "subtitle": "Transformamos procesos manuales en soluciones rentables. Somos consultores especializados en implementar soluciones de Inteligencia Artificial que generan un impacto real en tu negocio.",
-    "ctaPrimary": "Agenda una Consulta Gratuita",
-    "ctaSecondary": "Ver Soluciones"
+    "title": "No vendemos IA",
+    "subtitle": "Diseñamos sistemas que trabajan para su negocio.",
+    "text": "IA estratégica para impulsar el crecimiento de su empresa",
+    "secondaryText": "Transformamos procesos manuales en soluciones automatizadas que generan IMPACTO REAL",
+    "cta": "Ver Soluciones"
   },
-  
   "sectors": {
     "title": "Sectores",
     "description": "Especialistas en optimizar operaciones de alta complejidad donde la eficiencia logística y tecnológica es el motor del negocio.",
-    
     "supplyChain": {
-      "title": "Supply Chain Management",
-      "planning": "Planificación & Sourcing",
-      "planningDesc": "Forecasting de demanda, abastecimiento eficiente y gestión de proveedores.",
-      "operations": "Operaciones Internacionales",
-      "operationsDesc": "Comercio exterior, aduana y logística internacional compleja.",
-      "production": "Producción & Stock",
-      "productionDesc": "Manufactura, control de inventarios, logística inversa y depósitos.",
-      "distribution": "Distribución & Cliente",
-      "distributionDesc": "Transporte, última milla y forecast de ventas/cumplimiento."
+      "title": "Supply Chain Management (SCM)",
+      "planning": "Planificación y Forecasting",
+      "planningDesc": "Optimización y previsión de demanda y la planificación de recursos.",
+      "supplying": "Abastecimiento y Proveedores",
+      "supplyingDesc": "Gestión del abastecimiento eficiente, procesos de cotización confiable y la relación con proveedores.",
+      "comex": "Comercio Exterior y Aduana",
+      "comexDesc": "Gestión de importaciones, exportaciones, la logística y transporte internacional y gestión aduanera.",
+      "production": "Producción y Manufactura",
+      "productionDesc": "Control de la eficiencia y calidad de los procesos de producción.",
+      "logistics": "Logística y Distribución",
+      "logisticsDesc": "Gestión del almacenamiento, el transporte y la última milla.",
+      "inventory": "Inventarios y Logística Inversa",
+      "inventoryDesc": "Administración de los ingresos, egresos y devoluciones.",
+      "client": "Atención al Cliente",
+      "clientDesc": "Gestión del forecast de ventas, las entregas y su cumplimiento."
     },
-    
     "logisticsProviders": {
-      "title": "Logistics Service Providers",
-      "items": {
-        "operators": "Operadores (2PL a 5PL)",
-        "multimodal": "Transporte Multimodal",
-        "forwarders": "Agentes de Carga / Freight Forwarders",
-        "customs": "Despachantes de Aduana",
-        "storage": "Gestión de Almacenamiento",
-        "distribution": "Distribución y Última Milla",
-        "ecommerce": "Soluciones para Ecommerce",
-        "complementary": "Servicios Complementarios"
-      }
+      "title": "Logistics Service Providers (LSP)",
+      "operators": "Operadores (2PL / 3PL / 4PL / 5PL)",
+      "operatorsDesc": "Gestión operativa, planificación de recursos, costos y rentabilidad, reporting para clientes.",
+      "multimodal": "Transporte marítimo, aéreo y terrestre",
+      "multimodalDesc": "Cotizaciones inteligentes, planificación y seguimiento, gestión documental, gestión de incidencias.",
+      "forwarders": "Agentes de Carga / Freight Forwarders",
+      "forwardersDesc": "RFQs y pricing, gestión de bookings, documentación internacional, atención al cliente.",
+      "customs": "Despachantes de Aduana",
+      "customsDesc": "Clasificación arancelaria, gestión de expedientes, control normativo, comunicación con clientes.",
+      "storage": "Gestión de Almacenamiento",
+      "storageDesc": "Ingreso y egreso de mercadería, optimización de layouts, control de inventarios, integración WMS/ERP.",
+      "distribution": "Distribución y Última Milla",
+      "distributionDesc": "Ruteo inteligente, seguimiento en tiempo real, gestión de pruebas de entrega, atención post-entrega.",
+      "ecommerce": "Soluciones para Ecommerce",
+      "ecommerceDesc": "Gestión de pedidos, integraciones multicanal, gestión de devoluciones, atención al cliente.",
+      "complementary": "Servicios Complementarios",
+      "complementaryDesc": "Facturación y cobranzas, análisis de datos, compliance y auditoría, soporte interno."
     },
-    
     "industries": {
       "agro": {
         "title": "Agro",
@@ -101,17 +105,18 @@
       }
     }
   },
-  
   "whyChooseUs": {
-    "title": "Por qué elegirnos",
-    "description": "En Logix AI no partimos de la tecnología: partimos del negocio. Combinamos <strong>experiencia operativa real</strong> con innovación tecnológica para generar resultados medibles.",
-    
+    "title": "¿Por qué elegirnos?",
+    "description": "En LogixAI no partimos de la tecnología: partimos del negocio. Combinamos experiencia operativa real con innovación tecnológica para generar resultados medibles.",
     "uniqueExperience": {
       "title": "Experiencia Única",
-      "description": "Unimos <strong>+30 años</strong> en gestión de operaciones y supply chain con <strong>+15 años</strong> en vanguardia tecnológica.",
+      "descriptionPart1": "Unimos",
+      "opsYears": "+30 años",
+      "techYears": "+15 años",
+      "descriptionPart2": "en gestión de operaciones y supply chain con ",
+      "descriptionPart3": " en vanguardia tecnológica.",
       "quote": "\"Entendemos los problemas del mundo real antes de proponer una línea de código.\""
     },
-    
     "empowerPeople": {
       "title": "Potenciamos Personas",
       "description": "La IA no reemplaza humanos; los libera de lo rutinario para que aporten valor estratégico.",
@@ -121,9 +126,8 @@
         "Staff IA 24x7."
       ]
     },
-    
     "identifyPain": {
-      "title": "Identificamos \"el dolor\"",
+      "title": "Atacamos el verdadero problema",
       "description": "Detectamos puntos críticos con precisión quirúrgica:",
       "painPoints": [
         "Cuellos de botella",
@@ -132,16 +136,15 @@
         "Carga operativa"
       ]
     },
-    
     "ourPromise": {
       "title": "Nuestra Promesa",
-      "description": "Entregamos soluciones de <strong>nivel enterprise</strong> con agilidad y costos competitivos. Resultados reales, no promesas técnicas vacías."
+      "strongDesc": "nivel enterprise",
+      "descriptionPart1": "Entregamos soluciones de  ",
+      "descriptionPart2": "con agilidad y costos competitivos. Resultados reales, no promesas técnicas vacías."
     }
   },
-  
   "solutions": {
-    "title": "El Camino Hacia la Solución: Nuestros Servicios Clave",
-    
+    "title": "Nuestras Soluciones",
     "automation": {
       "title": "Automatizaciones con IA",
       "description": "Automatizamos procesos operativos y administrativos mediante IA, reduciendo costos, tiempos y errores humanos de forma medible.",
@@ -151,7 +154,6 @@
         "Optimización de procesos basada en datos"
       ]
     },
-    
     "agents": {
       "title": "Agentes de Inteligencia Artificial",
       "description": "Diseñamos agentes autónomos capaces de tomar decisiones, interactuar con sistemas y ejecutar tareas complejas de forma continua.",
@@ -161,40 +163,34 @@
         "Supervisión, control y auditoría"
       ]
     },
-    
     "aiStaff": {
-      "title": "AI Logistics Staff",
-      "description": "Personal logístico basado en IA que ejecuta funciones críticas con precisión, disponibilidad 24/7 y trazabilidad total.",
+      "title": "Staff IA",
+      "description": "Staff basado en IA que ejecuta funciones críticas con precisión, disponibilidad 24/7 y trazabilidad total. Entre algunas posiciones que podemos automatizar encontramos:",
       "items": [
-        "AI Demand Planner",
-        "AI Material Planner",
-        "AI RFQ Administrator",
-        "AI Supplier Verifier",
-        "AI Import/Export Coordinator",
-        "AI Logistics Coordinator",
-        "AI Transportation Coordinator",
-        "Otros roles personalizados"
+        "Planificador de Demanda",
+        "Planificador de Materiales",
+        "Comprador - Activador de RFQs",
+        "Comprador - Gestión de Proveedores",
+        "Coordinador de Import/Export",
+        "Coordinador de Transportes",
+        "Coordinador de Logística",
+        "Otros roles desarrollados a medida"
       ]
     },
-    
     "outsourcedStaff": {
-      "title": "AI Logistics Outsourced Staff (IC)",
-      "description": "Servicios logísticos tercerizados operados por agentes IA In-Cloud, listos para integrarse sin costos de onboarding.",
+      "title": "Staff IA Tercerizado",
+      "description": "Staff basado en IA para la prestación de servicios tercerizados operados por Agentes de IA alojados en la Nube, listos para integrarse sin costos de onboarding. Permite reemplazar a empleados «in-plant» por empleados virtuales en atención al cliente. Algunas posiciones pueden ser:",
       "items": [
-        "IC Customer Service",
-        "IC Logistics Coordinator",
-        "IC Transportation Coordinator",
-        "Otros servicios In-Cloud"
+        "Coordinador de Logística (en Operadores Logísticos)",
+        "Coordinador de Transporte (en Operadores Logísticos)",
+        "Customer Service (en Despachantes de Aduana y Freight Forwarders)",
+        "Otros roles desarrollados a medida"
       ]
-    },
-    
-    "cta": "Hablemos de tu Proyecto Específico"
+    }
   },
-  
   "contact": {
     "title": "¿Listo para la Transformación con IA?",
-    "description": "Contanos más sobre tu proyecto. Un consultor experto te contactará en menos de 24 horas para discutir tus objetivos y cómo nuestras soluciones pueden ayudarte a lograrlos.",
-    
+    "description": "Elegí el canal que mejor se adapte a tu forma de trabajo. Estamos listos para escuchar tus desafíos.",
     "form": {
       "name": "Nombre Completo",
       "email": "Correo Electrónico Corporativo",

@@ -1,1 +1,202 @@
-{}
+{
+    "nav": {
+        "home": "Home",
+        "solutions": "Solutions",
+        "sectors": "Sectors",
+        "why_us": "Why Choose Us?",
+        "contact": "Contact Us"
+    },
+    "common": {
+        "sectors": {
+            "help": "Which processes can we automate?"
+        },
+        "siteTitle": "LogixAI: Strategic Consulting",
+        "copyright": "© 2025 LogixAI. All rights reserved.",
+        "privacyPolicy": "Privacy Policy",
+        "terms": "Terms & Conditions",
+        "email": "Email",
+        "whatsapp": "WhatsApp",
+        "linkedin": "LinkedIn",
+        "send": "Send",
+        "sending": "Sending...",
+        "sentSuccess": "Sent Successfully!",
+        "tryAgain": "Try Again",
+        "thankYou": "Thank you! Your request has been successfully sent. We will contact you soon.",
+        "error": "There was an error with your request."
+    },
+    "hero": {
+        "title": "We Don't Sell AI",
+        "subtitle": "We design systems that work for your business.",
+        "text": "Strategic AI to drive your company's growth",
+        "secondaryText": "We transform manual processes into automated solutions that generate REAL IMPACT",
+        "cta": "See Solutions"
+    },
+    "sectors": {
+        "title": "Sectors",
+        "description": "Specialists in optimizing high-complexity operations where logistical and technological efficiency is the engine of the business.",
+        "supplyChain": {
+            "title": "Supply Chain Management (SCM)",
+            "planning": "Planning and Forecasting",
+            "planningDesc": "Optimization and demand forecasting along with resource planning.",
+            "supplying": "Sourcing and Suppliers",
+            "supplyingDesc": "Efficient procurement management, reliable quoting processes, and supplier relationship management.",
+            "comex": "Foreign Trade and Customs",
+            "comexDesc": "Management of imports, exports, international logistics and transport, and customs management.",
+            "production": "Production and Manufacturing",
+            "productionDesc": "Efficiency and quality control of production processes.",
+            "logistics": "Logistics and Distribution",
+            "logisticsDesc": "Management of warehousing, transportation, and last-mile delivery.",
+            "inventory": "Inventory and Reverse Logistics",
+            "inventoryDesc": "Administration of inflows, outflows, and returns.",
+            "client": "Customer Service",
+            "clientDesc": "Management of sales forecasts, deliveries, and fulfillment."
+        },
+        "logisticsProviders": {
+            "title": "Logistics Service Providers (LSP)",
+            "operators": "Operators (2PL / 3PL / 4PL / 5PL)",
+            "operatorsDesc": "Operational management, resource planning, costs and profitability, customer reporting.",
+            "multimodal": "Maritime, Air, and Land Transport",
+            "multimodalDesc": "Smart quoting, planning and tracking, document management, incident management.",
+            "forwarders": "Freight Forwarders",
+            "forwardersDesc": "RFQs and pricing, booking management, international documentation, customer service.",
+            "customs": "Customs Brokers",
+            "customsDesc": "Tariff classification, file management, regulatory control, customer communication.",
+            "storage": "Warehouse Management",
+            "storageDesc": "Goods entry and exit, layout optimization, inventory control, WMS/ERP integration.",
+            "distribution": "Distribution and Last Mile",
+            "distributionDesc": "Smart routing, real-time tracking, proof of delivery management, post-delivery support.",
+            "ecommerce": "E-commerce Solutions",
+            "ecommerceDesc": "Order management, multi-channel integrations, returns management, customer service.",
+            "complementary": "Complementary Services",
+            "complementaryDesc": "Billing and collections, data analysis, compliance and auditing, internal support."
+        },
+        "industries": {
+            "agro": {
+                "title": "Agro",
+                "description": "Smart agriculture & agri-food logistics."
+            },
+            "consumer": {
+                "title": "Consumer Goods",
+                "description": "Process optimization and stock management."
+            },
+            "tech": {
+                "title": "Tech & Telco",
+                "description": "Digital transformation and network management."
+            },
+            "ecommerce": {
+                "title": "E-commerce",
+                "description": "Last-mile logistics and fulfillment."
+            },
+            "government": {
+                "title": "Government",
+                "description": "Public processes and big data management."
+            },
+            "legal": {
+                "title": "Legal",
+                "description": "Compliance and AI applied to legal processes."
+            },
+            "manufacturing": {
+                "title": "Manufacturing",
+                "description": "Production efficiency and automation."
+            },
+            "services": {
+                "title": "Services",
+                "description": "CX improvement and internal processes."
+            }
+        }
+    },
+    "whyChooseUs": {
+        "title": "Why Choose Us?",
+        "description": "At LogixAI, we don't start with technology: we start with the business. We combine real operational experience with technological innovation to generate measurable results.",
+        "uniqueExperience": {
+            "title": "Unique Experience",
+            "descriptionPart1": "We unite",
+            "descriptionPart2": "in operations and supply chain management with ",
+            "descriptionPart3": " at the technological forefront.",
+            "opsYears": "+30 years",
+            "techYears": "+15 years",
+            "quote": "\"We understand real-world problems before proposing a single line of code.\""
+        },
+        "empowerPeople": {
+            "title": "Empowering People",
+            "description": "AI does not replace humans; it frees them from routine tasks so they can provide strategic value.",
+            "items": [
+                "Task automation.",
+                "Intelligent decision agents.",
+                "24/7 AI Staff."
+            ]
+        },
+        "identifyPain": {
+            "title": "Targeting the Real Problem",
+            "description": "We detect critical points with surgical precision:",
+            "painPoints": [
+                "Bottlenecks",
+                "Manual errors",
+                "Time leakage",
+                "Operational burden"
+            ]
+        },
+        "ourPromise": {
+            "title": "Our Promise",
+            "strongDesc": "enterprise-level",
+            "descriptionPart1": "We deliver ",
+            "descriptionPart2": "solutions with agility and competitive costs. Real results, not empty technical promises."
+        }
+    },
+    "solutions": {
+        "title": "Our Solutions",
+        "automation": {
+            "title": "AI Automations",
+            "description": "We automate operational and administrative processes through AI, measurably reducing costs, time, and human errors.",
+            "items": [
+                "End-to-end workflow automation",
+                "Integration with existing systems (ERP, TMS, WMS)",
+                "Data-driven process optimization"
+            ]
+        },
+        "agents": {
+            "title": "Artificial Intelligence Agents",
+            "description": "We design autonomous agents capable of making decisions, interacting with systems, and executing complex tasks continuously.",
+            "items": [
+                "Conversational and operational agents",
+                "Integration with LLMs and external tools",
+                "Supervision, control, and auditing"
+            ]
+        },
+        "aiStaff": {
+            "title": "AI Staff",
+            "description": "AI-based staff that executes critical functions with precision, 24/7 availability, and total traceability. Some positions we can automate include:",
+            "items": [
+                "Demand Planner",
+                "Materials Planner",
+                "Buyer - RFQ Expeditor",
+                "Buyer - Supplier Management",
+                "Import/Export Coordinator",
+                "Transport Coordinator",
+                "Logistics Coordinator",
+                "Other custom-developed roles"
+            ]
+        },
+        "outsourcedStaff": {
+            "title": "Outsourced AI Staff",
+            "description": "AI-based staff for outsourced services operated by cloud-hosted AI Agents, ready to integrate without onboarding costs. Allows for replacing 'in-plant' employees with virtual employees in customer service. Some positions include:",
+            "items": [
+                "Logistics Coordinator (in Logistics Operators)",
+                "Transport Coordinator (in Logistics Operators)",
+                "Customer Service (in Customs Brokers and Freight Forwarders)",
+                "Other custom-developed roles"
+            ]
+        }
+    },
+    "contact": {
+        "title": "Ready for AI Transformation?",
+        "description": "Choose the channel that best fits your workflow. We are ready to listen to your challenges.",
+        "form": {
+            "name": "Full Name",
+            "email": "Corporate Email Address",
+            "company": "Company",
+            "project": "Describe your AI project or need (optional)",
+            "submit": "Start Your AI Project Today"
+        }
+    }
+}
