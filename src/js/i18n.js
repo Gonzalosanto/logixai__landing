@@ -13,7 +13,7 @@ class I18n {
 
 async loadTranslations() {
   try {
-    const response = await fetch(`./langs/${this.locale}.json`); 
+    const response = await fetch(`./src/langs/${this.locale}.json`); 
     
     if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
     

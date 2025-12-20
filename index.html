@@ -10,38 +10,46 @@
 
   <body class="antialiased">
     <!-- Navbar -->
-    <header class="bg-white shadow-md sticky top-0 z-50">
-      <nav
-        class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center"
-      >
-        <div class="flex items-center">
-          <a
-            href="#inicio"
-            class="block transition duration-300 hover:opacity-80"
-          >
-            <img
-              src="src/public/Logo LOGIXAI Firma.png"
-              alt="LogixAI Logo"
-              class="h-10 sm:h-12 w-auto object-contain"
-            />
-          </a>
-        </div>
-        <div class="flex justify-around">
-          <a href="#inicio" class="nav-link mx-8"> Inicio </a>
-          <a href="#soluciones" class="nav-link mx-8"> Soluciones </a>
-          <a href="#sectores" class="nav-link mx-8"> Sectores </a>
-          <a href="#why_choose_us" class="nav-link mx-8">
-            ¿Por qué elegirnos?
-          </a>
-          <a
-            href="#contacto"
-            class="hidden sm:inline-block bg-button hover:bg-green-600 text-white font-semibold py-2 px-4 mx-4 rounded-lg transition duration-300 shadow-lg"
-          >
-            Contactanos
-          </a>
-        </div>
-      </nav>
-    </header>
+<header class="bg-white shadow-md sticky top-0 z-50">
+  <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
+    <div class="flex items-center shrink-0">
+      <a href="#inicio" class="block transition duration-300 hover:opacity-80">
+        <img src="src/public/Logo LOGIXAI Firma.png" alt="LogixAI Logo" class="h-10 sm:h-12 w-auto object-contain" />
+      </a>
+    </div>
+
+    <div class="hidden lg:flex items-center space-x-4">
+      <a href="#inicio" class="nav-link ml-0" data-i18n="nav.home">Inicio</a>
+      <a href="#soluciones" class="nav-link mx-4" data-i18n="nav.solutions">Soluciones</a>
+      <a href="#sectores" class="nav-link mx-4" data-i18n="nav.sectors">Sectores</a>
+      <a href="#why_choose_us" class="nav-link mx-4" data-i18n="nav.why_us">¿Por qué elegirnos?</a>
+      <a href="#contacto" class="nav-link" data-i18n="nav.contact">
+        Contactanos
+      </a>
+    </div>
+
+    <div class="lg:hidden flex items-center">
+      <button id="mobile-menu-button" class="text-slate-800 focus:outline-none p-2">
+        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path id="hamburger-icon" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+          <path id="close-icon" class="hidden" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+        </svg>
+      </button>
+    </div>
+  </nav>
+
+  <div id="mobile-menu" class="hidden lg:hidden bg-white border-t border-slate-100 px-4 pt-2 pb-6 space-y-2 shadow-xl">
+    <a href="#inicio" class="block py-3 px-4 text-slate-800 font-semibold hover:bg-slate-50 rounded-lg" data-i18n="nav.home">Inicio</a>
+    <a href="#soluciones" class="block py-3 px-4 text-slate-800 font-semibold hover:bg-slate-50 rounded-lg" data-i18n="nav.solutions">Soluciones</a>
+    <a href="#sectores" class="block py-3 px-4 text-slate-800 font-semibold hover:bg-slate-50 rounded-lg" data-i18n="nav.sectors">Sectores</a>
+    <a href="#why_choose_us" class="block py-3 px-4 text-slate-800 font-semibold hover:bg-slate-50 rounded-lg" data-i18n="nav.why_us">¿Por qué elegirnos?</a>
+    <div class="pt-4">
+      <a href="#contacto" class="block w-full text-center bg-button text-white font-bold py-4 rounded-xl shadow-lg" data-i18n="nav.contact">
+        Contactanos
+      </a>
+    </div>
+  </div>
+</header>
 
     <!-- 1. Hero Section -->
     <section
@@ -781,5 +789,6 @@
       </div>
     </footer>
     <script src="./src/js/i18n.js"></script>
+    <script src="./src/js/index.js"></script>
   </body>
 </html>

@@ -1,4 +1,12 @@
 {
+  "nav": {
+    "home": "Inicio",
+    "solutions": "Soluciones",
+    "sectors": "Sectores",
+    "why_us": "¿Por qué elegirnos?",
+    "contact": "Contactanos"
+  },
+
   "common": {
     "siteTitle": "LogixAI: Consultoría Estratégica",
     "copyright": "© 2025 LogixAI. Todos los derechos reservados.",
