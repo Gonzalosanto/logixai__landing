@@ -2,8 +2,8 @@
   "nav": {
     "home": "Inicio",
     "solutions": "Soluciones",
-    "sectors": "Sectores",
-    "why_us": "¿Por qué elegirnos?",
+    "sectors": "Industrias",
+    "why_us": "¿Por qué LogixAI?",
     "contact": "Contactanos"
   },
   "common": {
@@ -32,7 +32,7 @@
     "cta": "Ver Soluciones"
   },
   "sectors": {
-    "title": "Sectores",
+    "title": "Industrias",
     "description": "Especialistas en optimizar operaciones de alta complejidad donde la eficiencia logística y tecnológica es el motor del negocio.",
     "supplyChain": {
       "title": "Supply Chain Management (SCM)",
@@ -106,8 +106,11 @@
     }
   },
   "whyChooseUs": {
-    "title": "¿Por qué elegirnos?",
-    "description": "En LogixAI no partimos de la tecnología: partimos del negocio. Combinamos experiencia operativa real con innovación tecnológica para generar resultados medibles.",
+    "title": "¿Por qué LogixAI?",
+    "description1": "En LogixAI no partimos de la tecnología: partimos del negocio.",
+    "description2": "Combinamos ",
+    "description3": " con innovación tecnológica para generar resultados medibles.",
+    "highlightedDesc": "experiencia operativa real",
     "uniqueExperience": {
       "title": "Experiencia Única",
       "descriptionPart1": "Unimos",
@@ -169,11 +172,12 @@
       "items": [
         "Planificador de Demanda",
         "Planificador de Materiales",
-        "Comprador - Activador de RFQs",
-        "Comprador - Gestión de Proveedores",
+        "Comprador - Gestión de RFQ",
+        "Comprador - Evaluación de Proveedores",
         "Coordinador de Import/Export",
-        "Coordinador de Transportes",
+        "Transportation Coordinator",
         "Coordinador de Logística",
+        "Customer Service",
         "Otros roles desarrollados a medida"
       ]
     },
@@ -190,7 +194,8 @@
   },
   "contact": {
     "title": "¿Listo para la Transformación con IA?",
-    "description": "Elegí el canal que mejor se adapte a tu forma de trabajo. Estamos listos para escuchar tus desafíos.",
+    "description1": "Elegí el canal que mejor se adapte a tu forma de trabajo.",
+    "description2": " Estamos listos para escuchar tus desafíos.",
     "form": {
       "name": "Nombre Completo",
       "email": "Correo Electrónico Corporativo",

@@ -2,7 +2,7 @@
     "nav": {
         "home": "Home",
         "solutions": "Solutions",
-        "sectors": "Sectors",
+        "sectors": "Industries",
         "why_us": "Why Choose Us?",
         "contact": "Contact Us"
     },
@@ -32,16 +32,16 @@
         "cta": "See Solutions"
     },
     "sectors": {
-        "title": "Sectors",
+        "title": "Industries",
         "description": "Specialists in optimizing high-complexity operations where logistical and technological efficiency is the engine of the business.",
         "supplyChain": {
             "title": "Supply Chain Management (SCM)",
-            "planning": "Planning and Forecasting",
+            "planning": "Demand Optimization, Forecasting and Resource Plannig",
             "planningDesc": "Optimization and demand forecasting along with resource planning.",
             "supplying": "Sourcing and Suppliers",
             "supplyingDesc": "Efficient procurement management, reliable quoting processes, and supplier relationship management.",
-            "comex": "Foreign Trade and Customs",
-            "comexDesc": "Management of imports, exports, international logistics and transport, and customs management.",
+            "comex": "International Trade and Customs",
+            "comexDesc": "Management of imports, exports, international logistics and transportation, and customs management.",
             "production": "Production and Manufacturing",
             "productionDesc": "Efficiency and quality control of production processes.",
             "logistics": "Logistics and Distribution",
@@ -55,16 +55,16 @@
             "title": "Logistics Service Providers (LSP)",
             "operators": "Operators (2PL / 3PL / 4PL / 5PL)",
             "operatorsDesc": "Operational management, resource planning, costs and profitability, customer reporting.",
-            "multimodal": "Maritime, Air, and Land Transport",
+            "multimodal": "Maritime, Air, and Land Transportation",
             "multimodalDesc": "Smart quoting, planning and tracking, document management, incident management.",
             "forwarders": "Freight Forwarders",
             "forwardersDesc": "RFQs and pricing, booking management, international documentation, customer service.",
             "customs": "Customs Brokers",
             "customsDesc": "Tariff classification, file management, regulatory control, customer communication.",
             "storage": "Warehouse Management",
-            "storageDesc": "Goods entry and exit, layout optimization, inventory control, WMS/ERP integration.",
+            "storageDesc": "Inventory inflows and outflows, layout optimization, inventory control, WMS/ERP integration.",
             "distribution": "Distribution and Last Mile",
-            "distributionDesc": "Smart routing, real-time tracking, proof of delivery management, post-delivery support.",
+            "distributionDesc": "Smart freight coordination, real-time tracking, proof of delivery management, post-delivery support.",
             "ecommerce": "E-commerce Solutions",
             "ecommerceDesc": "Order management, multi-channel integrations, returns management, customer service.",
             "complementary": "Complementary Services",
@@ -106,9 +106,12 @@
         }
     },
     "whyChooseUs": {
-        "title": "Why Choose Us?",
-        "description": "At LogixAI, we don't start with technology: we start with the business. We combine real operational experience with technological innovation to generate measurable results.",
-        "uniqueExperience": {
+        "title": "Why LogixAI?",
+    "description1": "At LogixAI, we don't start with technology: we start with business.",
+    "description2": "We combine ",
+    "description3": " with technological innovation to generate measurable results.",
+    "highlightedDesc": "real operational experience",        
+    "uniqueExperience": {
             "title": "Unique Experience",
             "descriptionPart1": "We unite",
             "descriptionPart2": "in operations and supply chain management with ",
@@ -118,16 +121,16 @@
             "quote": "\"We understand real-world problems before proposing a single line of code.\""
         },
         "empowerPeople": {
-            "title": "Empowering People",
+            "title": "We Empower People",
             "description": "AI does not replace humans; it frees them from routine tasks so they can provide strategic value.",
             "items": [
                 "Task automation.",
-                "Intelligent decision agents.",
+                "Intelligent decision-making agents.",
                 "24/7 AI Staff."
             ]
         },
         "identifyPain": {
-            "title": "Targeting the Real Problem",
+            "title": "We Target the Real Problem",
             "description": "We detect critical points with surgical precision:",
             "painPoints": [
                 "Bottlenecks",
@@ -169,11 +172,12 @@
             "items": [
                 "Demand Planner",
                 "Materials Planner",
-                "Buyer - RFQ Expeditor",
-                "Buyer - Supplier Management",
+                "Buyer - RFQ Management",
+                "Buyer - Supplier Evaluation",
                 "Import/Export Coordinator",
-                "Transport Coordinator",
+                "Transportation Coordinator",
                 "Logistics Coordinator",
+                "Customer Service",
                 "Other custom-developed roles"
             ]
         },
@@ -182,7 +186,7 @@
             "description": "AI-based staff for outsourced services operated by cloud-hosted AI Agents, ready to integrate without onboarding costs. Allows for replacing 'in-plant' employees with virtual employees in customer service. Some positions include:",
             "items": [
                 "Logistics Coordinator (in Logistics Operators)",
-                "Transport Coordinator (in Logistics Operators)",
+                "Transportation Coordinator (in Logistics Operators)",
                 "Customer Service (in Customs Brokers and Freight Forwarders)",
                 "Other custom-developed roles"
             ]
@@ -190,7 +194,8 @@
     },
     "contact": {
         "title": "Ready for AI Transformation?",
-        "description": "Choose the channel that best fits your workflow. We are ready to listen to your challenges.",
+        "description1": "Choose the channel that best fits your workflow.",
+        "description2": " We are ready to listen to your challenges.",
         "form": {
             "name": "Full Name",
             "email": "Corporate Email Address",
