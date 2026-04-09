@@ -26,6 +26,7 @@
         <a href="#soluciones" class="nav-link mx-4" data-i18n="nav.solutions">Soluciones</a>
         <a href="#sectores" class="nav-link mx-4" data-i18n="nav.sectors">Industrias</a>
         <a href="#why_choose_us" class="nav-link mx-4" data-i18n="nav.why_us">¿Por qué elegirnos?</a>
+        <a href="#labs" class="nav-link mx-4" data-i18n="nav.labs">Labs</a>
         <a href="#contacto" class="nav-link" data-i18n="nav.contact">
           Contactanos
         </a>
@@ -53,6 +54,8 @@
         data-i18n="nav.sectors">Industrias</a>
       <a href="#why_choose_us" class="block py-3 px-4 text-slate-800 font-semibold hover:bg-slate-50 rounded-lg"
         data-i18n="nav.why_us">¿Por qué LogixAI?</a>
+      <a href="#labs" class="block py-3 px-4 text-slate-800 font-semibold hover:bg-slate-50 rounded-lg"
+        data-i18n="nav.labs">Labs</a>
       <div class="pt-4">
         <a href="#contacto" class="block w-full text-center bg-button text-white font-bold py-4 rounded-xl shadow-lg"
           data-i18n="nav.contact">
@@ -659,6 +662,231 @@
       </div>
     </div>
   </section>
+  <section id="labs" class="py-16 sm:py-24 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+      <!-- Encabezado -->
+      <div class="text-center mb-14">
+        <div
+          class="inline-flex items-center gap-2 bg-blue-50 border border-blue-100 text-blue-700 text-xs font-semibold uppercase tracking-widest px-4 py-2 rounded-full mb-5">
+          <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+          </svg>
+          Laboratorio de innovación
+        </div>
+        <h2 class="text-3xl sm:text-5xl font-extrabold text-slate-900 tracking-tight mb-4">
+          LogixAI <span class="text-primary">Labs</span>
+        </h2>
+        <div class="w-20 h-1.5 bg-primary mx-auto mb-6 rounded-full"></div>
+        <p class="text-lg text-slate-500 max-w-2xl mx-auto">
+          Proyectos y productos desarrollados internamente. Ideas que nacen de la experiencia operativa real.
+        </p>
+      </div>
+
+      <!-- Pestañas de navegación (logos) -->
+      <div class="flex flex-wrap justify-center gap-3 mb-10" id="labs-tabs-nav" role="tablist">
+
+        <button role="tab" aria-selected="true" aria-controls="labs-panel-0" data-tab="0" onclick="labsSwitchTab(0)"
+          class="labs-tab-btn group flex flex-col items-center gap-2 px-5 py-4 rounded-2xl border-2 border-primary bg-white shadow-md transition-all duration-200 min-w-[100px] labs-tab-active">
+          <img
+            class="labs-tab-icon w-12 h-12 rounded-xl bg-blue-50 flex items-center justify-center text-2xl select-none"
+            src="src/public/logo_rfqer.png">
+          <span
+            class="text-xs font-bold text-slate-700 group-[.labs-tab-active]:text-primary whitespace-nowrap">RFQer</span>
+        </button>
+
+        <button role="tab" aria-selected="false" aria-controls="labs-panel-1" data-tab="1" onclick="labsSwitchTab(1)"
+          class="labs-tab-btn group flex flex-col items-center gap-2 px-5 py-4 rounded-2xl border border-slate-200 bg-white hover:border-primary hover:shadow-md transition-all duration-200 min-w-[100px]">
+          <img
+            class="labs-tab-icon w-12 h-12 rounded-xl bg-blue-50 flex items-center justify-center text-2xl select-none"
+            src="src/public/logo_muio.png">
+          <span class="text-xs font-bold text-slate-500 group-hover:text-primary whitespace-nowrap">Muio</span>
+        </button>
+
+        <button role="tab" aria-selected="false" aria-controls="labs-panel-2" data-tab="2" onclick="labsSwitchTab(2)"
+          class="labs-tab-btn group flex flex-col items-center gap-2 px-5 py-4 rounded-2xl border border-slate-200 bg-white hover:border-primary hover:shadow-md transition-all duration-200 min-w-[100px]">
+          <img
+            class="labs-tab-icon w-12 h-12 rounded-xl bg-blue-50 flex items-center justify-center text-2xl select-none"
+            src="src/public/logo_fa.png">
+          <span class="text-xs font-bold text-slate-500 group-hover:text-primary whitespace-nowrap">FitApply</span>
+        </button>
+
+        <!-- ── Para agregar un nuevo proyecto, duplicar este bloque y cambiar data-tab al número siguiente ── -->
+        <!--
+      <button
+        role="tab"
+        aria-selected="false"
+        aria-controls="labs-panel-4"
+        data-tab="4"
+        onclick="labsSwitchTab(4)"
+        class="labs-tab-btn group flex flex-col items-center gap-2 px-5 py-4 rounded-2xl border border-slate-200 bg-white hover:border-primary hover:shadow-md transition-all duration-200 min-w-[100px]">
+        <span class="labs-tab-icon w-12 h-12 rounded-xl bg-purple-50 flex items-center justify-center text-2xl select-none">🤖</span>
+        <span class="text-xs font-bold text-slate-500 group-hover:text-primary whitespace-nowrap">NuevoProyecto</span>
+      </button>
+      -->
+
+      </div>
+
+      <!-- Paneles de contenido -->
+      <div class="relative">
+
+        <!-- Panel 0: RFQer -->
+        <div id="labs-panel-0" role="tabpanel" class="labs-panel block">
+          <div class="bg-slate-50 border border-slate-200 rounded-3xl p-8 sm:p-10">
+            <div class="flex flex-col sm:flex-row sm:items-start gap-6 mb-6">
+              <div
+                class="w-16 h-16 rounded-2xl bg-blue-100 flex items-center justify-center text-3xl flex-shrink-0 border border-blue-200">
+                <img
+                  class="labs-tab-icon w-12 h-12 rounded-xl bg-blue-50 flex items-center justify-center text-2xl select-none"
+                  src="src/public/logo_rfqer.png">
+                <!-- Reemplazar el emoji por: <img src="ruta/logo-logix-trace.png" alt="LogixTrace" class="w-10 h-10 object-contain" /> -->
+              </div>
+              <div>
+                <div class="flex flex-wrap items-center gap-3 mb-1">
+                  <h3 class="text-2xl font-extrabold text-slate-900">RFQer</h3>
+                  <span
+                    class="inline-flex items-center gap-1 bg-amber-100 text-amber-700 text-xs font-bold px-3 py-1 rounded-full border border-amber-200">
+                    <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                    Próximamente
+                  </span>
+                </div>
+                <p class="text-slate-500 font-medium">Visibilidad de operaciones logísticas en tiempo real</p>
+              </div>
+            </div>
+            <p class="text-slate-600 leading-relaxed mb-6">
+              Plataforma de trazabilidad end-to-end para operaciones logísticas. LogixTrace centraliza el estado de
+              pedidos, embarques y entregas en un único panel, integrándose con ERP, TMS y operadores externos. Permite
+              alertas proactivas, SLA tracking y reportes automáticos para equipos de Supply Chain y LSPs.
+            </p>
+            <div class="flex flex-wrap gap-2 mb-8">
+              <span class="labs-tag">Supply Chain</span>
+              <span class="labs-tag">Visibilidad</span>
+              <span class="labs-tag">Integración ERP/TMS</span>
+              <span class="labs-tag">Alertas proactivas</span>
+            </div>
+            <div class="pt-6 border-t border-slate-200 flex flex-wrap items-center gap-4">
+              <span class="text-sm text-slate-400 italic">Producto en desarrollo — próximo lanzamiento.</span>
+              <a href="#contacto"
+                class="inline-flex items-center gap-2 text-primary font-semibold text-sm hover:underline">
+                Consultanos por acceso anticipado
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Panel 1: Muio -->
+        <div id="labs-panel-1" role="tabpanel" class="labs-panel hidden">
+          <div class="bg-slate-50 border border-slate-200 rounded-3xl p-8 sm:p-10">
+            <div class="flex flex-col sm:flex-row sm:items-start gap-6 mb-6">
+              <div
+                class="w-16 h-16 rounded-2xl bg-red-100 flex items-center justify-center text-3xl flex-shrink-0 border border-red-200">
+                <img
+                  class="labs-tab-icon w-12 h-12 rounded-xl bg-blue-50 flex items-center justify-center text-2xl select-none"
+                  src="src/public/logo_muio.png">
+              </div>
+              <div>
+                <div class="flex flex-wrap items-center gap-3 mb-1">
+                  <h3 class="text-2xl font-extrabold text-slate-900">Muio</h3>
+                  <span
+                    class="inline-flex items-center gap-1 bg-amber-100 text-amber-700 text-xs font-bold px-3 py-1 rounded-full border border-amber-200">
+                    <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                    Próximamente
+                  </span>
+                </div>
+                <p class="text-slate-500 font-medium">Forecasting inteligente de demanda con IA</p>
+              </div>
+            </div>
+            <p class="text-slate-600 leading-relaxed mb-6">
+              Motor de predicción de demanda que combina datos históricos de ventas, señales de mercado y variables
+              externas para generar proyecciones confiables. Diseñado para planificadores en empresas de consumo masivo,
+              retail y manufactura que necesitan reducir quiebres de stock y exceso de inventario.
+            </p>
+            <div class="flex flex-wrap gap-2 mb-8">
+              <span class="labs-tag">Forecasting</span>
+              <span class="labs-tag">Inventarios</span>
+              <span class="labs-tag">Machine Learning</span>
+              <span class="labs-tag">Consumo masivo</span>
+            </div>
+            <div class="pt-6 border-t border-slate-200 flex flex-wrap items-center gap-4">
+              <span class="text-sm text-slate-400 italic">Producto en desarrollo — próximo lanzamiento.</span>
+              <a href="#contacto"
+                class="inline-flex items-center gap-2 text-primary font-semibold text-sm hover:underline">
+                Consultanos por acceso anticipado
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Panel 2: FitApply -->
+         <div id="labs-panel-2" role="tabpanel" class="labs-panel hidden">
+          <div class="bg-slate-50 border border-slate-200 rounded-3xl p-8 sm:p-10">
+            <div class="flex flex-col sm:flex-row sm:items-start gap-6 mb-6">
+              <div
+                class="w-16 h-16 rounded-2xl bg-blue-100 flex items-center justify-center text-3xl flex-shrink-0 border border-blue-200">
+                <img
+                  class="labs-tab-icon w-12 h-12 rounded-xl bg-blue-50 flex items-center justify-center text-2xl select-none"
+                  src="src/public/logo_fa.png"
+                  alt="Logo de FitApply">
+              </div>
+              <div>
+                <div class="flex flex-wrap items-center gap-3 mb-1">
+                  <h3 class="text-2xl font-extrabold text-slate-900">FitApply</h3>
+                  <a href="https://fitapply.site" target="_blank" rel="noopener noreferrer"
+                    class="inline-flex items-center gap-1.5 bg-blue-50 text-blue-700 text-xs font-bold px-3 py-1 rounded-full border border-blue-200 hover:bg-blue-100 transition-colors duration-200">
+                    <span class="w-1.5 h-1.5 rounded-full bg-blue-500 inline-block animate-pulse"></span>
+                    Plataforma Activa
+                  </a>
+                </div>
+                <p class="text-slate-500 font-medium">Asistente de Empleabilidad Inteligente</p>
+              </div>
+            </div>
+            
+            <p class="text-slate-600 leading-relaxed mb-6">
+              Tu aliado estratégico para conseguir el trabajo ideal. FitApply utiliza Inteligencia Artificial para optimizar tu currículum según la oferta laboral, analizar tus habilidades, y ofrecerte simulaciones de entrevistas personalizadas. Maximiza tus oportunidades de contratación con asesoramiento basado en datos y tecnología de vanguardia.
+            </p>
+
+            <div class="flex flex-wrap gap-2 mb-8">
+              <span class="labs-tag bg-white border border-slate-200 text-slate-700 px-3 py-1 rounded-full text-xs font-semibold">Asistencia IA</span>
+              <span class="labs-tag bg-white border border-slate-200 text-slate-700 px-3 py-1 rounded-full text-xs font-semibold">Optimización de CV</span>
+              <span class="labs-tag bg-white border border-slate-200 text-slate-700 px-3 py-1 rounded-full text-xs font-semibold">Preparación de Entrevistas</span>
+              <span class="labs-tag bg-white border border-slate-200 text-slate-700 px-3 py-1 rounded-full text-xs font-semibold">Carrera Profesional</span>
+            </div>
+
+            <div class="pt-6 border-t border-slate-200 flex flex-wrap items-center gap-4">
+              <a href="https://fitapply.site" target="_blank" rel="noopener noreferrer"
+                class="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-bold text-sm py-3 px-6 rounded-xl transition-colors duration-200 shadow-md">
+                Ver proyecto
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- ── Para agregar un nuevo panel, duplicar este bloque ──
+      <div id="labs-panel-4" role="tabpanel" class="labs-panel hidden">
+        <div class="bg-slate-50 border border-slate-200 rounded-3xl p-8 sm:p-10">
+          ...contenido del nuevo proyecto...
+        </div>
+      </div>
+      -->
+      </div>
+    </div>
+  </section>
   <!-- 5. Sección de Contacto -->
   <section id="contacto" class="py-16 sm:py-24 bg-white">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -724,6 +952,41 @@
       </div>
     </div>
   </footer>
+  <!-- =====================================================
+     JAVASCRIPT para el cambio de pestañas
+     Agregar al final del <body>, antes de </body>,
+     o dentro del archivo index.js existente
+     ===================================================== -->
+  <script>
+    function labsSwitchTab(index) {
+      // Actualizar botones de navegación
+      var buttons = document.querySelectorAll('.labs-tab-btn');
+      buttons.forEach(function (btn, i) {
+        var isActive = i === index;
+        btn.setAttribute('aria-selected', isActive ? 'true' : 'false');
+        btn.classList.toggle('labs-tab-active', isActive);
+        // Borde
+        btn.classList.toggle('border-2', isActive);
+        btn.classList.toggle('border', !isActive);
+        btn.classList.toggle('border-slate-200', !isActive);
+        // Sombra
+        btn.classList.toggle('shadow-md', isActive);
+        // Color del texto del nombre
+        var nameSpan = btn.querySelector('span:last-child');
+        if (nameSpan) {
+          nameSpan.classList.toggle('text-slate-700', isActive);
+          nameSpan.classList.toggle('text-slate-500', !isActive);
+        }
+      });
+
+      // Mostrar/ocultar paneles
+      var panels = document.querySelectorAll('.labs-panel');
+      panels.forEach(function (panel, i) {
+        panel.classList.toggle('hidden', i !== index);
+        panel.classList.toggle('block', i === index);
+      });
+    }
+  </script>
   <script src="./src/js/i18n.js"></script>
   <script src="./src/js/index.js"></script>
 </body>
